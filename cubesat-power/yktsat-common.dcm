@@ -1,0 +1,52 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3-A
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +3V3-B
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +3V3-C
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +5V-A
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +5V-B
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP +5V-C
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+$CMP 74HC573#SOIC
+K LATCH LOGIC 8BIT
+F http://www.farnell.com/datasheets/2030238.pdf
+$ENDCMP
+#
+$CMP INA3221AIRGVR
+F http://www.ti.com/lit/ds/symlink/ina3221.pdf
+$ENDCMP
+#
+$CMP RMLV0408EGSB-4S2#AA1
+K SRAM MEMORY
+F http://www.farnell.com/datasheets/2700208.pdf
+$ENDCMP
+#
+$CMP VSOLAR
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

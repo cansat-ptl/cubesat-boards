@@ -1,0 +1,231 @@
+EESchema Schematic File Version 4
+LIBS:cubesat-power-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title "Yktsat Main Header"
+Date "2020-03-28"
+Rev "2"
+Comp "SJSA"
+Comment1 "YKTS-0002-HEADER"
+Comment2 "ThePetrovich"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic_MountingPin:Conn_02x20_Odd_Even_MountingPin J5
+U 1 1 5EC3FEB1
+P 6150 4550
+F 0 "J5" H 6200 5667 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even_MountingPin" H 6200 5576 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 6150 4550 50  0001 C CNN
+F 3 "~" H 6150 4550 50  0001 C CNN
+	1    6150 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_02x06_Odd_Even_MountingPin J6
+U 1 1 5EC46500
+P 6150 2350
+F 0 "J6" H 6200 2767 50  0000 C CNN
+F 1 "PWR_HEAD" H 6200 2676 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical" H 6150 2350 50  0001 C CNN
+F 3 "~" H 6150 2350 50  0001 C CNN
+	1    6150 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+3V3-A #PWR0126
+U 1 1 5ED47503
+P 5050 2000
+F 0 "#PWR0126" H 5050 1850 50  0001 C CNN
+F 1 "+3V3-A" H 5065 2173 50  0000 C CNN
+F 2 "" H 5050 2000 50  0001 C CNN
+F 3 "" H 5050 2000 50  0001 C CNN
+	1    5050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+3V3-B #PWR0127
+U 1 1 5ED47E91
+P 5400 2000
+F 0 "#PWR0127" H 5400 1850 50  0001 C CNN
+F 1 "+3V3-B" H 5415 2173 50  0000 C CNN
+F 2 "" H 5400 2000 50  0001 C CNN
+F 3 "" H 5400 2000 50  0001 C CNN
+	1    5400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+5V-A #PWR0128
+U 1 1 5ED46C3C
+P 5750 2000
+F 0 "#PWR0128" H 5750 1850 50  0001 C CNN
+F 1 "+5V-A" H 5765 2173 50  0000 C CNN
+F 2 "" H 5750 2000 50  0001 C CNN
+F 3 "" H 5750 2000 50  0001 C CNN
+	1    5750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2000 5750 2150
+Wire Wire Line
+	5750 2150 5850 2150
+Wire Wire Line
+	5400 2000 5400 2250
+Wire Wire Line
+	5400 2250 5850 2250
+Wire Wire Line
+	5050 2000 5050 2350
+Wire Wire Line
+	5050 2350 5850 2350
+$Comp
+L power:+5V #PWR0129
+U 1 1 5ED49173
+P 4650 2000
+F 0 "#PWR0129" H 4650 1850 50  0001 C CNN
+F 1 "+5V" H 4665 2173 50  0000 C CNN
+F 2 "" H 4650 2000 50  0001 C CNN
+F 3 "" H 4650 2000 50  0001 C CNN
+	1    4650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0130
+U 1 1 5ED499FA
+P 4250 2000
+F 0 "#PWR0130" H 4250 1850 50  0001 C CNN
+F 1 "+3V3" H 4265 2173 50  0000 C CNN
+F 2 "" H 4250 2000 50  0001 C CNN
+F 3 "" H 4250 2000 50  0001 C CNN
+	1    4250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2000 4650 2450
+Wire Wire Line
+	4650 2450 5850 2450
+Wire Wire Line
+	5850 2550 4250 2550
+Wire Wire Line
+	4250 2550 4250 2000
+$Comp
+L power:GND #PWR0131
+U 1 1 5ED4A5A5
+P 6100 3000
+F 0 "#PWR0131" H 6100 2750 50  0001 C CNN
+F 1 "GND" H 6105 2827 50  0000 C CNN
+F 2 "" H 6100 3000 50  0001 C CNN
+F 3 "" H 6100 3000 50  0001 C CNN
+	1    6100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3000 6100 2900
+Connection ~ 6100 2900
+Wire Wire Line
+	6100 2900 6100 2850
+Wire Wire Line
+	6100 2900 6450 2900
+Wire Wire Line
+	6450 2900 6450 2650
+Wire Wire Line
+	6450 2150 6350 2150
+Wire Wire Line
+	6350 2250 6450 2250
+Connection ~ 6450 2250
+Wire Wire Line
+	6450 2250 6450 2150
+Wire Wire Line
+	6350 2350 6450 2350
+Connection ~ 6450 2350
+Wire Wire Line
+	6450 2350 6450 2250
+Wire Wire Line
+	6350 2450 6450 2450
+Connection ~ 6450 2450
+Wire Wire Line
+	6450 2450 6450 2350
+Wire Wire Line
+	6350 2550 6450 2550
+Connection ~ 6450 2550
+Wire Wire Line
+	6450 2550 6450 2450
+Wire Wire Line
+	6350 2650 6450 2650
+Connection ~ 6450 2650
+Wire Wire Line
+	6450 2650 6450 2550
+Text GLabel 5600 2650 0    50   Input ~ 0
+BAT_HEAT
+Wire Wire Line
+	5600 2650 5850 2650
+Text GLabel 5650 3750 0    50   Input ~ 0
+CANH
+Text GLabel 5650 3850 0    50   Input ~ 0
+CANL
+Wire Wire Line
+	5650 3850 5850 3850
+Wire Wire Line
+	5650 3750 5850 3750
+$Comp
+L power:GND #PWR0135
+U 1 1 5E8F8502
+P 6750 3800
+F 0 "#PWR0135" H 6750 3550 50  0001 C CNN
+F 1 "GND" H 6755 3627 50  0000 C CNN
+F 2 "" H 6750 3800 50  0001 C CNN
+F 3 "" H 6750 3800 50  0001 C CNN
+	1    6750 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 3950 6550 3950
+Wire Wire Line
+	6550 3950 6550 3850
+Wire Wire Line
+	6550 3800 6750 3800
+Wire Wire Line
+	6350 3850 6550 3850
+Connection ~ 6550 3850
+Wire Wire Line
+	6550 3850 6550 3800
+Wire Wire Line
+	6350 3750 6550 3750
+Wire Wire Line
+	6550 3750 6550 3800
+Connection ~ 6550 3800
+Wire Wire Line
+	6350 3650 6550 3650
+Wire Wire Line
+	6550 3650 6550 3750
+Connection ~ 6550 3750
+$Comp
+L power:GND #PWR0136
+U 1 1 5E8FB4BB
+P 5200 3800
+F 0 "#PWR0136" H 5200 3550 50  0001 C CNN
+F 1 "GND" H 5205 3627 50  0000 C CNN
+F 2 "" H 5200 3800 50  0001 C CNN
+F 3 "" H 5200 3800 50  0001 C CNN
+	1    5200 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 3650 5350 3650
+Wire Wire Line
+	5350 3650 5350 3800
+Wire Wire Line
+	5350 3800 5200 3800
+Wire Wire Line
+	5350 3800 5350 3950
+Wire Wire Line
+	5350 3950 5850 3950
+Connection ~ 5350 3800
+Text GLabel 5650 4050 0    50   Input ~ 0
+PW_OK
+Wire Wire Line
+	5650 4050 5850 4050
+$EndSCHEMATC

@@ -1,0 +1,347 @@
+EESchema Schematic File Version 4
+LIBS:cubesat-power-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title "Yktsat Power Supply Switches"
+Date "2020-03-28"
+Rev "2"
+Comp "SJSA"
+Comment1 "YKTS-1004-PWRSW"
+Comment2 "ThePetrovich"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4250 3100 0    50   Input ~ 0
+PWR_3V3B_CTRL
+Text HLabel 7000 5250 0    50   Input ~ 0
+BHEAT_CTRL
+Wire Wire Line
+	7000 5250 7150 5250
+Text HLabel 5650 4150 0    50   Input ~ 0
+PWR_5VA_CTRL
+Wire Wire Line
+	5650 4150 5800 4150
+Text GLabel 8050 4800 2    50   Input ~ 0
+BAT_HEAT
+Wire Wire Line
+	8050 5700 8150 5700
+$Comp
+L yktsat-common:+3V3-B #PWR04
+U 1 1 5E77A9CB
+P 5350 2650
+F 0 "#PWR04" H 5350 2500 50  0001 C CNN
+F 1 "+3V3-B" H 5365 2823 50  0000 C CNN
+F 2 "" H 5350 2650 50  0001 C CNN
+F 3 "" H 5350 2650 50  0001 C CNN
+	1    5350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+3V3-B #PWR05
+U 1 1 5E77B243
+P 5350 3550
+F 0 "#PWR05" H 5350 3400 50  0001 C CNN
+F 1 "+3V3-B" H 5365 3723 50  0000 C CNN
+F 2 "" H 5350 3550 50  0001 C CNN
+F 3 "" H 5350 3550 50  0001 C CNN
+	1    5350 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L yktsat-common:+5V-A #PWR06
+U 1 1 5E77D1AF
+P 6700 3700
+F 0 "#PWR06" H 6700 3550 50  0001 C CNN
+F 1 "+5V-A" H 6715 3873 50  0000 C CNN
+F 2 "" H 6700 3700 50  0001 C CNN
+F 3 "" H 6700 3700 50  0001 C CNN
+	1    6700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+5V-A #PWR07
+U 1 1 5E77E262
+P 6700 4600
+F 0 "#PWR07" H 6700 4450 50  0001 C CNN
+F 1 "+5V-A" H 6715 4773 50  0000 C CNN
+F 2 "" H 6700 4600 50  0001 C CNN
+F 3 "" H 6700 4600 50  0001 C CNN
+	1    6700 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+BATT #PWR08
+U 1 1 5E77F355
+P 8150 5700
+F 0 "#PWR08" H 8150 5550 50  0001 C CNN
+F 1 "+BATT" H 8165 5873 50  0000 C CNN
+F 2 "" H 8150 5700 50  0001 C CNN
+F 3 "" H 8150 5700 50  0001 C CNN
+	1    8150 5700
+	0    1    1    0   
+$EndComp
+Text HLabel 6850 3800 2    50   Input ~ 0
+PWR_5VA_PROBE
+Wire Wire Line
+	5350 3450 5350 3550
+Text HLabel 5500 2750 2    50   Input ~ 0
+PWR_3V3B_PROBE
+$Comp
+L Device:R_Small R7
+U 1 1 5E9CAD46
+P 4550 3100
+F 0 "R7" V 4354 3100 50  0000 C CNN
+F 1 "1K" V 4445 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4550 3100 50  0001 C CNN
+F 3 "~" H 4550 3100 50  0001 C CNN
+	1    4550 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 3100 4450 3100
+$Comp
+L Device:R_Small R9
+U 1 1 5E9D0293
+P 5900 4150
+F 0 "R9" V 5704 4150 50  0000 C CNN
+F 1 "1K" V 5795 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5900 4150 50  0001 C CNN
+F 3 "~" H 5900 4150 50  0001 C CNN
+	1    5900 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4600 6700 4500
+$Comp
+L Device:R_Small R11
+U 1 1 5E9D45A0
+P 7250 5250
+F 0 "R11" V 7054 5250 50  0000 C CNN
+F 1 "1K" V 7145 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7250 5250 50  0001 C CNN
+F 3 "~" H 7250 5250 50  0001 C CNN
+	1    7250 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 1700 4150 1850
+Connection ~ 4150 1700
+Wire Wire Line
+	4150 1600 4150 1700
+Wire Wire Line
+	3100 2050 3250 2050
+Text HLabel 3100 2050 0    50   Input ~ 0
+PWR_3V3A_CTRL
+$Comp
+L Device:R_Small R6
+U 1 1 5E6FD629
+P 3350 2050
+F 0 "R6" V 3154 2050 50  0000 C CNN
+F 1 "1K" V 3245 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3350 2050 50  0001 C CNN
+F 3 "~" H 3350 2050 50  0001 C CNN
+	1    3350 2050
+	0    1    1    0   
+$EndComp
+Text HLabel 4300 1700 2    50   Input ~ 0
+PWR_3V3A_PROBE
+$Comp
+L Device:R_Small R5
+U 1 1 5E750339
+P 3900 2400
+F 0 "R5" V 4096 2400 50  0000 C CNN
+F 1 "10K" V 4005 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3900 2400 50  0001 C CNN
+F 3 "~" H 3900 2400 50  0001 C CNN
+	1    3900 2400
+	0    1    1    0   
+$EndComp
+Text Notes 4300 2400 0    50   ~ 0
+High side
+$Comp
+L yktsat-common:+3V3-A #PWR02
+U 1 1 5E72F0F6
+P 4150 1600
+F 0 "#PWR02" H 4150 1450 50  0001 C CNN
+F 1 "+3V3-A" H 4165 1773 50  0000 C CNN
+F 2 "" H 4150 1600 50  0001 C CNN
+F 3 "" H 4150 1600 50  0001 C CNN
+	1    4150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+3V3-A #PWR03
+U 1 1 5E7044BB
+P 4150 2500
+F 0 "#PWR03" H 4150 2350 50  0001 C CNN
+F 1 "+3V3-A" H 4165 2673 50  0000 C CNN
+F 2 "" H 4150 2500 50  0001 C CNN
+F 3 "" H 4150 2500 50  0001 C CNN
+	1    4150 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q1
+U 1 1 5E9B58B1
+P 4050 2050
+F 0 "Q1" H 4256 2096 50  0000 L CNN
+F 1 "KIA3415" H 4256 2005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 2150 50  0001 C CNN
+F 3 "~" H 4050 2050 50  0001 C CNN
+	1    4050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1700 4300 1700
+Wire Wire Line
+	4150 2250 4150 2400
+Wire Wire Line
+	3450 2050 3700 2050
+Wire Wire Line
+	3800 2400 3700 2400
+Wire Wire Line
+	3700 2400 3700 2050
+Connection ~ 3700 2050
+Wire Wire Line
+	3700 2050 3850 2050
+Wire Wire Line
+	4000 2400 4150 2400
+Connection ~ 4150 2400
+Wire Wire Line
+	4150 2400 4150 2500
+Wire Wire Line
+	5350 2750 5350 2900
+Connection ~ 5350 2750
+Wire Wire Line
+	5350 2650 5350 2750
+$Comp
+L Device:R_Small R8
+U 1 1 5EED4159
+P 5100 3450
+F 0 "R8" V 5296 3450 50  0000 C CNN
+F 1 "10K" V 5205 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 3450 50  0001 C CNN
+F 3 "~" H 5100 3450 50  0001 C CNN
+	1    5100 3450
+	0    1    1    0   
+$EndComp
+Text Notes 5500 3450 0    50   ~ 0
+High side
+$Comp
+L Device:Q_PMOS_GSD Q2
+U 1 1 5EED4160
+P 5250 3100
+F 0 "Q2" H 5456 3146 50  0000 L CNN
+F 1 "KIA3415" H 5456 3055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5450 3200 50  0001 C CNN
+F 3 "~" H 5250 3100 50  0001 C CNN
+	1    5250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2750 5500 2750
+Wire Wire Line
+	5350 3300 5350 3450
+Wire Wire Line
+	4650 3100 4900 3100
+Wire Wire Line
+	5000 3450 4900 3450
+Wire Wire Line
+	4900 3450 4900 3100
+Connection ~ 4900 3100
+Wire Wire Line
+	4900 3100 5050 3100
+Wire Wire Line
+	5200 3450 5350 3450
+Connection ~ 5350 3450
+Wire Wire Line
+	6700 3800 6700 3950
+Connection ~ 6700 3800
+Wire Wire Line
+	6700 3700 6700 3800
+$Comp
+L Device:R_Small R10
+U 1 1 5EED80DE
+P 6450 4500
+F 0 "R10" V 6646 4500 50  0000 C CNN
+F 1 "10K" V 6555 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6450 4500 50  0001 C CNN
+F 3 "~" H 6450 4500 50  0001 C CNN
+	1    6450 4500
+	0    1    1    0   
+$EndComp
+Text Notes 6850 4500 0    50   ~ 0
+High side
+$Comp
+L Device:Q_PMOS_GSD Q3
+U 1 1 5EED80E5
+P 6600 4150
+F 0 "Q3" H 6806 4196 50  0000 L CNN
+F 1 "KIA3415" H 6806 4105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6800 4250 50  0001 C CNN
+F 3 "~" H 6600 4150 50  0001 C CNN
+	1    6600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3800 6850 3800
+Wire Wire Line
+	6700 4350 6700 4500
+Wire Wire Line
+	6000 4150 6250 4150
+Wire Wire Line
+	6350 4500 6250 4500
+Wire Wire Line
+	6250 4500 6250 4150
+Connection ~ 6250 4150
+Wire Wire Line
+	6250 4150 6400 4150
+Wire Wire Line
+	6550 4500 6700 4500
+Connection ~ 6700 4500
+$Comp
+L Device:R_Small R12
+U 1 1 5EED9B97
+P 7800 5600
+F 0 "R12" V 7996 5600 50  0000 C CNN
+F 1 "10K" V 7905 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7800 5600 50  0001 C CNN
+F 3 "~" H 7800 5600 50  0001 C CNN
+	1    7800 5600
+	0    1    1    0   
+$EndComp
+Text Notes 8200 5600 0    50   ~ 0
+High side
+$Comp
+L Device:Q_PMOS_GSD Q4
+U 1 1 5EED9B9E
+P 7950 5250
+F 0 "Q4" H 8156 5296 50  0000 L CNN
+F 1 "KIA3415" H 8156 5205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8150 5350 50  0001 C CNN
+F 3 "~" H 7950 5250 50  0001 C CNN
+	1    7950 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5450 8050 5600
+Wire Wire Line
+	7350 5250 7600 5250
+Wire Wire Line
+	7700 5600 7600 5600
+Wire Wire Line
+	7600 5600 7600 5250
+Connection ~ 7600 5250
+Wire Wire Line
+	7600 5250 7750 5250
+Wire Wire Line
+	7900 5600 8050 5600
+Connection ~ 8050 5600
+Wire Wire Line
+	8050 5600 8050 5700
+Wire Wire Line
+	8050 4800 8050 5050
+$EndSCHEMATC
