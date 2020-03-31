@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title "Yktsat CANBus Controller"
 Date "2020-03-29"
 Rev "1"
@@ -338,32 +338,6 @@ F 3 "~" H 3400 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L yktsat-common:+5V-A #PWR?
-U 1 1 5E6D0866
-P 7650 2250
-AR Path="/5E6D0866" Ref="#PWR?"  Part="1" 
-AR Path="/5E6C4D56/5E6D0866" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 7650 2100 50  0001 C CNN
-F 1 "+5V-A" H 7665 2423 50  0000 C CNN
-F 2 "" H 7650 2250 50  0001 C CNN
-F 3 "" H 7650 2250 50  0001 C CNN
-	1    7650 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L yktsat-common:+3V3-A #PWR?
-U 1 1 5E6D086C
-P 5050 2250
-AR Path="/5E6D086C" Ref="#PWR?"  Part="1" 
-AR Path="/5E6C4D56/5E6D086C" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 5050 2100 50  0001 C CNN
-F 1 "+3V3-A" H 5065 2423 50  0000 C CNN
-F 2 "" H 5050 2250 50  0001 C CNN
-F 3 "" H 5050 2250 50  0001 C CNN
-	1    5050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5E6D0872
 P 3100 4350
@@ -496,32 +470,50 @@ U 5EC2FA42
 F0 "YKTS_HEAD" 50
 F1 "common-header.sch" 50
 $EndSheet
+Wire Wire Line
+	7100 2250 7100 3450
 $Comp
 L yktsat-common:+3V3-A #PWR?
-U 1 1 5E87C6FD
+U 1 1 5E833E26
+P 5050 2250
+F 0 "#PWR?" H 5050 2100 50  0001 C CNN
+F 1 "+3V3-A" H 5065 2423 50  0000 C CNN
+F 2 "" H 5050 2250 50  0001 C CNN
+F 3 "" H 5050 2250 50  0001 C CNN
+	1    5050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+3V3-A #PWR?
+U 1 1 5E835F8A
+P 6600 4550
+F 0 "#PWR?" H 6600 4400 50  0001 C CNN
+F 1 "+3V3-A" H 6615 4723 50  0000 C CNN
+F 2 "" H 6600 4550 50  0001 C CNN
+F 3 "" H 6600 4550 50  0001 C CNN
+	1    6600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+3V3-A #PWR?
+U 1 1 5E836DEE
 P 7100 2250
-AR Path="/5E87C6FD" Ref="#PWR?"  Part="1" 
-AR Path="/5E6C4D56/5E87C6FD" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR0118" H 7100 2100 50  0001 C CNN
+F 0 "#PWR?" H 7100 2100 50  0001 C CNN
 F 1 "+3V3-A" H 7115 2423 50  0000 C CNN
 F 2 "" H 7100 2250 50  0001 C CNN
 F 3 "" H 7100 2250 50  0001 C CNN
 	1    7100 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 2250 7100 3450
 $Comp
-L yktsat-common:+3V3-A #PWR?
-U 1 1 5E87F10E
-P 6600 4550
-AR Path="/5E87F10E" Ref="#PWR?"  Part="1" 
-AR Path="/5E6C4D56/5E87F10E" Ref="#PWR0119"  Part="1" 
-F 0 "#PWR0119" H 6600 4400 50  0001 C CNN
-F 1 "+3V3-A" H 6615 4723 50  0000 C CNN
-F 2 "" H 6600 4550 50  0001 C CNN
-F 3 "" H 6600 4550 50  0001 C CNN
-	1    6600 4550
+L yktsat-common:+5V-A #PWR?
+U 1 1 5E837BE8
+P 7650 2250
+F 0 "#PWR?" H 7650 2100 50  0001 C CNN
+F 1 "+5V-A" H 7665 2423 50  0000 C CNN
+F 2 "" H 7650 2250 50  0001 C CNN
+F 3 "" H 7650 2250 50  0001 C CNN
+	1    7650 2250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

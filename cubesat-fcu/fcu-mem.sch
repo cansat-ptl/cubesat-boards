@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title "Yktsat FCU SRAM Module"
 Date "2020-03-29"
 Rev "1"
@@ -14,43 +14,6 @@ Comment2 "ThePetrovich"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L yktsat-common:74HC573#SOIC U?
-U 1 1 5E800EE2
-P 4500 6050
-AR Path="/5E800EE2" Ref="U?"  Part="1" 
-AR Path="/5E7F1954/5E800EE2" Ref="U5"  Part="1" 
-F 0 "U5" H 4725 7367 50  0000 C CNN
-F 1 "74HC573#SOIC" H 4725 7276 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5400 5900 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2030238.pdf" H 4500 6300 50  0001 C CNN
-	1    4500 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L yktsat-common:74HC573#SOIC U?
-U 1 1 5E800EE8
-P 4500 4650
-AR Path="/5E800EE8" Ref="U?"  Part="1" 
-AR Path="/5E7F1954/5E800EE8" Ref="U4"  Part="1" 
-F 0 "U4" H 4725 5967 50  0000 C CNN
-F 1 "74HC573#SOIC" H 4725 5876 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5400 4500 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2030238.pdf" H 4500 4900 50  0001 C CNN
-	1    4500 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L yktsat-common:+3V3-A #PWR0101
-U 1 1 5E830280
-P 7000 1650
-F 0 "#PWR0101" H 7000 1500 50  0001 C CNN
-F 1 "+3V3-A" H 7015 1823 50  0000 C CNN
-F 2 "" H 7000 1650 50  0001 C CNN
-F 3 "" H 7000 1650 50  0001 C CNN
-	1    7000 1650
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 5E831F6A
@@ -136,17 +99,6 @@ Wire Wire Line
 	5150 4400 5150 4450
 Wire Wire Line
 	5150 4450 5050 4450
-$Comp
-L yktsat-common:+3V3-A #PWR0117
-U 1 1 5E844DE0
-P 5150 5850
-F 0 "#PWR0117" H 5150 5700 50  0001 C CNN
-F 1 "+3V3-A" V 5200 5850 50  0000 C CNN
-F 2 "" H 5150 5850 50  0001 C CNN
-F 3 "" H 5150 5850 50  0001 C CNN
-	1    5150 5850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 5850 5050 5850
 $Comp
@@ -158,17 +110,6 @@ F 1 "IS61C5128AL-10TLI" H 7000 4840 50  0000 C CNN
 F 2 "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm" H 6500 4600 50  0001 C CNN
 F 3 "http://www.issi.com/WW/pdf/61-64C5128AL.pdf" H 7000 3450 50  0001 C CNN
 	1    7000 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L yktsat-common:+3V3-A #PWR0116
-U 1 1 5E8426E1
-P 5150 4400
-F 0 "#PWR0116" H 5150 4250 50  0001 C CNN
-F 1 "+3V3-A" V 5200 4400 50  0000 C CNN
-F 2 "" H 5150 4400 50  0001 C CNN
-F 3 "" H 5150 4400 50  0001 C CNN
-	1    5150 4400
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
@@ -499,12 +440,67 @@ Text HLabel 9050 2250 2    50   Input ~ 0
 PJ[0..7]
 Wire Bus Line
 	3600 2250 3050 2250
-Wire Bus Line
-	8450 2250 8450 2950
-Wire Bus Line
-	3600 2250 3600 5100
 Text Label 3100 2250 0    50   ~ 0
 PK[0..7]
 Text HLabel 3050 2250 0    50   Input ~ 0
 PK[0..7]
+Wire Bus Line
+	8450 2250 8450 2950
+Wire Bus Line
+	3600 2250 3600 5100
+$Comp
+L yktsat-common:+3V3-A #PWR?
+U 1 1 5E82F2F9
+P 7000 1650
+F 0 "#PWR?" H 7000 1500 50  0001 C CNN
+F 1 "+3V3-A" H 7015 1823 50  0000 C CNN
+F 2 "" H 7000 1650 50  0001 C CNN
+F 3 "" H 7000 1650 50  0001 C CNN
+	1    7000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+3V3-A #PWR?
+U 1 1 5E82FDB1
+P 5150 4400
+F 0 "#PWR?" H 5150 4250 50  0001 C CNN
+F 1 "+3V3-A" H 5165 4573 50  0000 C CNN
+F 2 "" H 5150 4400 50  0001 C CNN
+F 3 "" H 5150 4400 50  0001 C CNN
+	1    5150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+3V3-A #PWR?
+U 1 1 5E830FFC
+P 5150 5850
+F 0 "#PWR?" H 5150 5700 50  0001 C CNN
+F 1 "+3V3-A" H 5165 6023 50  0000 C CNN
+F 2 "" H 5150 5850 50  0001 C CNN
+F 3 "" H 5150 5850 50  0001 C CNN
+	1    5150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:74HC573#SOIC U?
+U 1 1 5E841AC9
+P 4500 4650
+F 0 "U?" H 4725 5967 50  0000 C CNN
+F 1 "74HC573#SOIC" H 4725 5876 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5400 4500 50  0001 C CNN
+F 3 "" H 4500 4900 50  0001 C CNN
+	1    4500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:74HC573#SOIC U?
+U 1 1 5E842DB1
+P 4500 6050
+F 0 "U?" H 4725 7367 50  0000 C CNN
+F 1 "74HC573#SOIC" H 4725 7276 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5400 5900 50  0001 C CNN
+F 3 "" H 4500 6300 50  0001 C CNN
+	1    4500 6050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

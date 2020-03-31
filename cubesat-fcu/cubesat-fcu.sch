@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Yktsat Flight Controller"
 Date "2020-03-29"
 Rev "1"
@@ -247,16 +247,16 @@ Text Label 3350 3100 0    50   ~ 0
 PK[0..7]
 Text Label 3350 3200 0    50   ~ 0
 PJ[0..7]
-Wire Bus Line
-	4500 3100 4500 3300
-Wire Bus Line
-	4500 2600 4500 3100
-Wire Bus Line
-	4500 3500 4500 4200
 $Sheet
 S 8600 1450 900  650 
 U 5E81ECD3
 F0 "FCU_MRAM" 50
 F1 "fcu-mram.sch" 50
 $EndSheet
+Wire Bus Line
+	4500 3100 4500 3300
+Wire Bus Line
+	4500 2600 4500 3100
+Wire Bus Line
+	4500 3500 4500 4200
 $EndSCHEMATC
