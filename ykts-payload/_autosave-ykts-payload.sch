@@ -1110,7 +1110,7 @@ Wire Wire Line
 Connection ~ 8450 5250
 Wire Wire Line
 	8450 5250 8450 5450
-Text Notes 8450 4250 0    100  ~ 0
+Text Notes 8700 4150 0    100  ~ 0
 SD Card
 $Comp
 L yktsat-common:INA3221AIRGVR U6
@@ -1460,7 +1460,7 @@ Text GLabel 4100 7200 2    50   Input ~ 0
 I2C0_SCL
 Text GLabel 4100 7300 2    50   Input ~ 0
 INA_TCTRL
-Text Notes 2750 4750 0    100  ~ 0
+Text Notes 2550 4800 0    100  ~ 0
 Current Sensor
 Wire Notes Line
 	2550 4550 2550 500 

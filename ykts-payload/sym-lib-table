@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name yktsat-common)(type Legacy)(uri C:/Sources/cubesat-boards/yktsat-common.lib)(options "")(descr ""))
+)
