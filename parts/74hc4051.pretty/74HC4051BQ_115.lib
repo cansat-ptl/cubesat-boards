@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 74HC4051BQ,115
+#/734074/618652/2.49/17/3/Integrated Circuit
+DEF 74HC4051BQ,115 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 700 50 H V L CNN
+F1 "74HC4051BQ,115" 1050 600 50 H V L CNN
+F2 "QFN50P250X350X100-17N-D" 1050 500 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT4051.pdf" 1050 400 50 H I L CNN
+F4 "74HC4051; 74HCT4051 - 8-channel analog multiplexer/demultiplexer@en-us" 1050 300 50 H I L CNN "Description"
+F5 "1" 1050 200 50 H I L CNN "Height"
+F6 "Nexperia" 1050 100 50 H I L CNN "Manufacturer_Name"
+F7 "74HC4051BQ,115" 1050 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-HC4051BQ115" 1050 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC4051BQ115?qs=P62ublwmbi%252BWMd6Jmnjaew%3D%3D" 1050 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "74HC4051BQ,115" 1050 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/74hc4051bq115/nexperia?region=nac" 1050 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X Y4 1 0 0 200 R 50 50 0 0 P
+X Y6 2 0 -100 200 R 50 50 0 0 P
+X Z 3 300 -700 200 U 50 50 0 0 P
+X Y7 4 400 -700 200 U 50 50 0 0 P
+X Y5 5 500 -700 200 U 50 50 0 0 P
+X ~E 6 600 -700 200 U 50 50 0 0 P
+X VEE 7 700 -700 200 U 50 50 0 0 P
+X GND 8 800 -700 200 U 50 50 0 0 P
+X S1 10 1200 0 200 L 50 50 0 0 P
+X S2 9 1200 -100 200 L 50 50 0 0 P
+X VCC_2 17 300 700 200 D 50 50 0 0 P
+X VCC_1 16 400 700 200 D 50 50 0 0 P
+X Y2 15 500 700 200 D 50 50 0 0 P
+X Y1 14 600 700 200 D 50 50 0 0 P
+X Y0 13 700 700 200 D 50 50 0 0 P
+X Y3 12 800 700 200 D 50 50 0 0 P
+X S0 11 900 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1000 500 1000 -500 200 -500 200 500 N
+ENDDRAW
+ENDDEF
+#
+#End Library
