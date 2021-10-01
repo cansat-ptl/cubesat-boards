@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 18
+Sheet 11 18
 Title "YktSat Payload Module"
 Date "2021-09-30"
 Rev "A0"
@@ -179,7 +179,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 4700 8400 4650
 Text Label 7050 4600 0    50   ~ 0
-NODE0_RESET
+NODE8_RESET
 $Comp
 L Device:Crystal_GND24_Small Y?
 U 1 1 638383B8
@@ -251,13 +251,13 @@ F 3 "~" H 6950 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 2700 2450 0    50   Input ~ 0
-NODE0_PWR
+NODE8_PWR
 Text GLabel 3900 3650 0    50   Input ~ 0
-NODE0_RESET
+NODE8_RESET
 Text GLabel 3900 3750 0    50   Input ~ 0
-NODE0_RX
+NODE8_RX
 Text GLabel 3900 3850 0    50   Input ~ 0
-NODE0_TX
+NODE8_TX
 $Comp
 L yktsat-common:+5V_A #PWR?
 U 1 1 63916675
@@ -453,7 +453,7 @@ AR Path="/6174477C/63801AEE/6391667C" Ref="D?"  Part="1"
 AR Path="/6174477C/638385B6/6391667C" Ref="D?"  Part="1" 
 AR Path="/6174477C/638DF11B/6391667C" Ref="D?"  Part="1" 
 F 0 "D?" V 8439 2682 50  0000 R CNN
-F 1 "NODE0_STATUSLED" V 8348 2682 50  0000 R CNN
+F 1 "NODE8_STATUSLED" V 8348 2682 50  0000 R CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 8400 2800 50  0001 C CNN
 F 3 "~" H 8400 2800 50  0001 C CNN
 	1    8400 2800
@@ -543,11 +543,11 @@ UART0_TX
 Wire Wire Line
 	4200 3750 3900 3750
 Text Label 4200 3650 0    50   ~ 0
-NODE0_RESET
+NODE8_RESET
 Wire Wire Line
 	4200 3650 3900 3650
 Text Notes 5700 950  0    100  ~ 0
-MCU Node 0
+MCU Node 8
 Wire Wire Line
 	2700 2450 3100 2450
 Wire Wire Line
@@ -566,7 +566,7 @@ Power input
 Text Label 3900 3550 2    50   ~ 0
 ISP_RESET
 Text Label 4200 3550 0    50   ~ 0
-NODE0_RESET
+NODE8_RESET
 Wire Wire Line
 	4200 3550 3900 3550
 Wire Notes Line
