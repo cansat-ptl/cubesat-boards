@@ -2818,12 +2818,6 @@ F0 "MCU Node1" 50
 F1 "ykts-mcu-node1.sch" 50
 $EndSheet
 $Sheet
-S 500  13500 1500 500 
-U 63801AEE
-F0 "MCU Node2" 50
-F1 "ykts-mcu-node1.sch" 50
-$EndSheet
-$Sheet
 S 2200 13500 1500 500 
 U 63801AF0
 F0 "MCU Node3" 50
@@ -2920,5 +2914,11 @@ S 6250 15250 1500 500
 U 638DF129
 F0 "MCU Node15" 50
 F1 "ykts-mcu-node15.sch" 50
+$EndSheet
+$Sheet
+S 500  13500 1500 500 
+U 63801AEE
+F0 "MCU Node2" 50
+F1 "ykts-mcu-node2.sch" 50
 $EndSheet
 $EndSCHEMATC

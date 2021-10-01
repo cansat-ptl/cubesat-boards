@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 18
 Title "YktSat Payload Module"
 Date "2021-09-30"
 Rev "A0"
@@ -901,7 +901,7 @@ Wire Wire Line
 	9050 5450 8850 5450
 NoConn ~ 8850 5450
 Text GLabel 7450 5350 0    50   Input ~ 0
-SPI0_MISO
+SPI1_MISO
 $Comp
 L Device:R_Small R9
 U 1 1 6163C43E
@@ -944,11 +944,11 @@ $EndComp
 Wire Wire Line
 	8900 5350 9050 5350
 Text GLabel 7450 5150 0    50   Input ~ 0
-SPI0_SCK
+SPI1_SCK
 Wire Wire Line
 	8900 5150 9050 5150
 Text GLabel 7450 4950 0    50   Input ~ 0
-SPI0_MOSI
+SPI1_MOSI
 Wire Wire Line
 	8900 4950 9050 4950
 Wire Wire Line
@@ -1478,10 +1478,6 @@ U 6174477C
 F0 "Payload MCU" 50
 F1 "ykts-payload-mcu.sch" 50
 $EndSheet
-$Sheet
-S 2000 8750 1650 550 
-U 619FBF62
-F0 "Sheet619FBF61" 50
-F1 "file619FBF61.sch" 50
-$EndSheet
+Text Notes 6700 3500 0    50   ~ 0
+TODO:\nReset control from MCU
 $EndSCHEMATC

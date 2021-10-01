@@ -17,6 +17,12 @@ K TTL Multiplexer Demultiplexer Analog
 F http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf
 $ENDCMP
 #
+$CMP ADG802BRT
+D CMOS SPST NC Switch, 0.4 Ohm
+K switch spst nc 
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG801_802.pdf
+$ENDCMP
+#
 $CMP PCA9534BS3,118
 D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, HVQFN16
 K SMBUS I2C Expander
