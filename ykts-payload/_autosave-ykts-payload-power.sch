@@ -1,0 +1,220 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 19 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1400 3200 1550 3200
+Wire Wire Line
+	2450 1250 2450 1150
+$Comp
+L Device:R_Small R7
+U 1 1 5E9CAD46
+P 1650 1600
+F 0 "R7" V 1454 1600 50  0000 C CNN
+F 1 "1K" V 1545 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1650 1600 50  0001 C CNN
+F 3 "~" H 1650 1600 50  0001 C CNN
+	1    1650 1600
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1350 1600 1550 1600
+$Comp
+L Device:R_Small R9
+U 1 1 5E9D0293
+P 1650 3200
+F 0 "R9" V 1454 3200 50  0000 C CNN
+F 1 "1K" V 1545 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1650 3200 50  0001 C CNN
+F 3 "~" H 1650 3200 50  0001 C CNN
+	1    1650 3200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2450 2750 2450 2850
+$Comp
+L Device:R_Small R8
+U 1 1 5EED4159
+P 2200 1250
+F 0 "R8" V 2396 1250 50  0000 C CNN
+F 1 "10K" V 2305 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2200 1250 50  0001 C CNN
+F 3 "~" H 2200 1250 50  0001 C CNN
+	1    2200 1250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q2
+U 1 1 5EED4160
+P 2350 1600
+F 0 "Q2" H 2556 1646 50  0000 L CNN
+F 1 "KIA3415" H 2556 1555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2550 1700 50  0001 C CNN
+F 3 "~" H 2350 1600 50  0001 C CNN
+	1    2350 1600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2450 1400 2450 1250
+Wire Wire Line
+	1750 1600 2000 1600
+Wire Wire Line
+	2100 1250 2000 1250
+Wire Wire Line
+	2000 1250 2000 1600
+Connection ~ 2000 1600
+Wire Wire Line
+	2000 1600 2150 1600
+Wire Wire Line
+	2300 1250 2450 1250
+Connection ~ 2450 1250
+$Comp
+L Device:R_Small R10
+U 1 1 5EED80DE
+P 2200 2850
+F 0 "R10" V 2396 2850 50  0000 C CNN
+F 1 "10K" V 2305 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2200 2850 50  0001 C CNN
+F 3 "~" H 2200 2850 50  0001 C CNN
+	1    2200 2850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q3
+U 1 1 5EED80E5
+P 2350 3200
+F 0 "Q3" H 2556 3246 50  0000 L CNN
+F 1 "KIA3415" H 2556 3155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2550 3300 50  0001 C CNN
+F 3 "~" H 2350 3200 50  0001 C CNN
+	1    2350 3200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2450 3000 2450 2850
+Wire Wire Line
+	1750 3200 2000 3200
+Wire Wire Line
+	2100 2850 2000 2850
+Wire Wire Line
+	2000 2850 2000 3200
+Connection ~ 2000 3200
+Wire Wire Line
+	2000 3200 2150 3200
+Wire Wire Line
+	2300 2850 2450 2850
+Connection ~ 2450 2850
+Wire Wire Line
+	2450 3650 2450 3400
+Text GLabel 2450 1150 2    50   UnSpc ~ 0
++5V_A_IN
+Text GLabel 2450 3650 2    50   UnSpc ~ 0
++5V_GEIGER
+Wire Wire Line
+	2450 2050 2450 1800
+$Comp
+L yktsat-common:+5V_B #PWR?
+U 1 1 63A10454
+P 2450 2050
+F 0 "#PWR?" H 2450 1900 50  0001 C CNN
+F 1 "+5V_B" H 2465 2223 50  0000 C CNN
+F 2 "" H 2450 2050 50  0001 C CNN
+F 3 "" H 2450 2050 50  0001 C CNN
+	1    2450 2050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 63A10EB0
+P 2450 2750
+F 0 "#PWR?" H 2450 2600 50  0001 C CNN
+F 1 "+5V" H 2465 2923 50  0000 C CNN
+F 2 "" H 2450 2750 50  0001 C CNN
+F 3 "" H 2450 2750 50  0001 C CNN
+	1    2450 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+5V_A #PWR?
+U 1 1 63A100B0
+P 4700 2050
+F 0 "#PWR?" H 4700 1900 50  0001 C CNN
+F 1 "+5V_A" H 4715 2223 50  0000 C CNN
+F 2 "" H 4700 2050 50  0001 C CNN
+F 3 "" H 4700 2050 50  0001 C CNN
+	1    4700 2050
+	1    0    0    1   
+$EndComp
+Text GLabel 4700 1150 2    50   UnSpc ~ 0
++5V_A_IN
+Wire Wire Line
+	4700 2050 4700 1800
+Wire Wire Line
+	4700 1250 4700 1150
+Connection ~ 4700 1250
+Wire Wire Line
+	4550 1250 4700 1250
+Wire Wire Line
+	4250 1600 4400 1600
+Connection ~ 4250 1600
+Wire Wire Line
+	4250 1250 4250 1600
+Wire Wire Line
+	4350 1250 4250 1250
+Wire Wire Line
+	4000 1600 4250 1600
+Wire Wire Line
+	4700 1400 4700 1250
+$Comp
+L Device:Q_PMOS_GSD Q1
+U 1 1 5E9B58B1
+P 4600 1600
+F 0 "Q1" H 4806 1646 50  0000 L CNN
+F 1 "KIA3415" H 4806 1555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4800 1700 50  0001 C CNN
+F 3 "~" H 4600 1600 50  0001 C CNN
+	1    4600 1600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5E750339
+P 4450 1250
+F 0 "R5" V 4646 1250 50  0000 C CNN
+F 1 "10K" V 4555 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4450 1250 50  0001 C CNN
+F 3 "~" H 4450 1250 50  0001 C CNN
+	1    4450 1250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5E6FD629
+P 3900 1600
+F 0 "R6" V 3704 1600 50  0000 C CNN
+F 1 "1K" V 3795 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3900 1600 50  0001 C CNN
+F 3 "~" H 3900 1600 50  0001 C CNN
+	1    3900 1600
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3650 1600 3800 1600
+Text GLabel 1400 3200 0    50   Input ~ 0
+MOSFET_GEIGER
+Text GLabel 1350 1600 0    50   Input ~ 0
+MOSFET_5VA
+Text GLabel 3650 1600 0    50   Input ~ 0
+MOSFET_5VB
+$EndSCHEMATC

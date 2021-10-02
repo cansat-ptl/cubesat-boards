@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name yktsat-common)(type Legacy)(uri C:/Sources/cubesat-boards/yktsat-common.lib)(options "")(descr ""))
+  (lib (name cubesat-power-rescue)(type Legacy)(uri C:/Sources/cubesat-boards-master/cubesat-power/cubesat-power-rescue.lib)(options "")(descr ""))
 )

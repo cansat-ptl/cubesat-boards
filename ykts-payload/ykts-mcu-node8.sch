@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 18
+Sheet 10 18
 Title "YktSat Payload Module"
 Date "2021-09-30"
 Rev "A0"
