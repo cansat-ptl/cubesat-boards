@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 18
 Title "YktSat Payload Module"
 Date "2021-10-03"
-Rev "A2"
+Rev "A3"
 Comp "Sakha Aerospace Systems, LLC"
 Comment1 "Approved by:"
 Comment2 "Verified by:"
@@ -2758,48 +2758,6 @@ U 637564E2
 F0 "MCU Node0" 50
 F1 "ykts-mcu-node0.sch" 50
 $EndSheet
-$Sheet
-S 2200 12600 1500 500 
-U 637CB186
-F0 "MCU Node1" 50
-F1 "ykts-mcu-node1.sch" 50
-$EndSheet
-$Sheet
-S 500  13500 1500 500 
-U 63801AEE
-F0 "MCU Node2" 50
-F1 "ykts-mcu-node2.sch" 50
-$EndSheet
-$Sheet
-S 2200 13500 1500 500 
-U 63801AF0
-F0 "MCU Node3" 50
-F1 "ykts-mcu-node3.sch" 50
-$EndSheet
-$Sheet
-S 500  14350 1500 500 
-U 638385B6
-F0 "MCU Node4" 50
-F1 "ykts-mcu-node4.sch" 50
-$EndSheet
-$Sheet
-S 2200 14350 1500 500 
-U 638385B8
-F0 "MCU Node5" 50
-F1 "ykts-mcu-node5.sch" 50
-$EndSheet
-$Sheet
-S 500  15250 1500 500 
-U 638385BA
-F0 "MCU Node6" 50
-F1 "ykts-mcu-node6.sch" 50
-$EndSheet
-$Sheet
-S 2200 15250 1500 500 
-U 638385BC
-F0 "MCU Node7" 50
-F1 "ykts-mcu-node7.sch" 50
-$EndSheet
 Wire Notes Line
 	350  12400 350  16000
 Wire Notes Line
@@ -2820,54 +2778,6 @@ Wire Notes Line
 	7900 12400 4400 12400
 Text Notes 5250 12300 0    100  ~ 0
 Power Channel B nodes
-$Sheet
-S 4550 12600 1500 500 
-U 638DF11B
-F0 "MCU Node8" 50
-F1 "ykts-mcu-node8.sch" 50
-$EndSheet
-$Sheet
-S 6250 12600 1500 500 
-U 638DF11D
-F0 "MCU Node9" 50
-F1 "ykts-mcu-node9.sch" 50
-$EndSheet
-$Sheet
-S 4550 13500 1500 500 
-U 638DF11F
-F0 "MCU Node10" 50
-F1 "ykts-mcu-node10.sch" 50
-$EndSheet
-$Sheet
-S 6250 13500 1500 500 
-U 638DF121
-F0 "MCU Node11" 50
-F1 "ykts-mcu-node11.sch" 50
-$EndSheet
-$Sheet
-S 4550 14350 1500 500 
-U 638DF123
-F0 "MCU Node12" 50
-F1 "ykts-mcu-node12.sch" 50
-$EndSheet
-$Sheet
-S 6250 14350 1500 500 
-U 638DF125
-F0 "MCU Node13" 50
-F1 "ykts-mcu-node13.sch" 50
-$EndSheet
-$Sheet
-S 4550 15250 1500 500 
-U 638DF127
-F0 "MCU Node14" 50
-F1 "ykts-mcu-node14.sch" 50
-$EndSheet
-$Sheet
-S 6250 15250 1500 500 
-U 638DF129
-F0 "MCU Node15" 50
-F1 "ykts-mcu-node15.sch" 50
-$EndSheet
 $Bitmap
 Pos 15150 10250
 Scale 1.000000
@@ -4171,4 +4081,94 @@ Text GLabel 8250 2700 2    50   Input ~ 0
 MCP_RESET
 Wire Wire Line
 	8250 2700 7900 2700
+$Sheet
+S 2200 12600 1500 500 
+U 6568C69E
+F0 "MCU Node1" 50
+F1 "ykts-mcu-node1.sch" 50
+$EndSheet
+$Sheet
+S 500  13350 1500 500 
+U 656DAE2A
+F0 "MCU Node2" 50
+F1 "ykts-mcu-node2.sch" 50
+$EndSheet
+$Sheet
+S 2200 13350 1500 500 
+U 656DAE2C
+F0 "MCU Node3" 50
+F1 "ykts-mcu-node3.sch" 50
+$EndSheet
+$Sheet
+S 500  14100 1500 500 
+U 65729588
+F0 "MCU Node4" 50
+F1 "ykts-mcu-node4.sch" 50
+$EndSheet
+$Sheet
+S 2200 14100 1500 500 
+U 6572958A
+F0 "MCU Node5" 50
+F1 "ykts-mcu-node5.sch" 50
+$EndSheet
+$Sheet
+S 500  14850 1500 500 
+U 6572958C
+F0 "MCU Node6" 50
+F1 "ykts-mcu-node6.sch" 50
+$EndSheet
+$Sheet
+S 2200 14850 1500 500 
+U 6572958E
+F0 "MCU Node7" 50
+F1 "ykts-mcu-node7.sch" 50
+$EndSheet
+$Sheet
+S 4550 12600 1500 500 
+U 6577909A
+F0 "MCU Node8" 50
+F1 "ykts-mcu-node8.sch" 50
+$EndSheet
+$Sheet
+S 6250 12600 1500 500 
+U 6577909C
+F0 "MCU Node9" 50
+F1 "ykts-mcu-node9.sch" 50
+$EndSheet
+$Sheet
+S 4550 13350 1500 500 
+U 6577909E
+F0 "MCU Node10" 50
+F1 "ykts-mcu-node10.sch" 50
+$EndSheet
+$Sheet
+S 6250 13350 1500 500 
+U 657790A0
+F0 "MCU Node11" 50
+F1 "ykts-mcu-node11.sch" 50
+$EndSheet
+$Sheet
+S 4550 14100 1500 500 
+U 657790A2
+F0 "MCU Node12" 50
+F1 "ykts-mcu-node12.sch" 50
+$EndSheet
+$Sheet
+S 6250 14100 1500 500 
+U 657790A4
+F0 "MCU Node13" 50
+F1 "ykts-mcu-node13.sch" 50
+$EndSheet
+$Sheet
+S 4550 14850 1500 500 
+U 657790A6
+F0 "MCU Node14" 50
+F1 "ykts-mcu-node14.sch" 50
+$EndSheet
+$Sheet
+S 6250 14850 1500 500 
+U 657790A8
+F0 "MCU Node15" 50
+F1 "ykts-mcu-node15.sch" 50
+$EndSheet
 $EndSCHEMATC

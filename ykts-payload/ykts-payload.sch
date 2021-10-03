@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 18
 Title "YktSat Payload Module"
 Date "2021-10-03"
-Rev "A2"
+Rev "A3"
 Comp "Sakha Aerospace Systems, LLC"
 Comment1 ""
 Comment2 ""
