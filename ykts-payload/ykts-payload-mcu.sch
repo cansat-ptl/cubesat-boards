@@ -1873,8 +1873,6 @@ F 3 "~" H 1250 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1350 5400 1750 5400
-Wire Wire Line
 	1750 5200 1950 5200
 $Comp
 L Device:R_Small R?
@@ -1914,81 +1912,14 @@ Wire Wire Line
 Wire Wire Line
 	950  5400 950  5300
 Connection ~ 950  5300
-$Comp
-L Device:R_Small R?
-U 1 1 617C444E
-P 1950 5600
-AR Path="/617C444E" Ref="R?"  Part="1" 
-AR Path="/6174477C/617C444E" Ref="R32"  Part="1" 
-F 0 "R32" V 1754 5600 50  0000 C CNN
-F 1 "10K" V 1845 5600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1950 5600 50  0001 C CNN
-F 3 "~" H 1950 5600 50  0001 C CNN
-	1    1950 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 617C4454
-P 1850 5800
-AR Path="/617C4454" Ref="R?"  Part="1" 
-AR Path="/6174477C/617C4454" Ref="R28"  Part="1" 
-F 0 "R28" V 1654 5800 50  0000 C CNN
-F 1 "10K" V 1745 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1850 5800 50  0001 C CNN
-F 3 "~" H 1850 5800 50  0001 C CNN
-	1    1850 5800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 617C445A
-P 1750 6000
-AR Path="/617C445A" Ref="R?"  Part="1" 
-AR Path="/6174477C/617C445A" Ref="R24"  Part="1" 
-F 0 "R24" V 1554 6000 50  0000 C CNN
-F 1 "10K" V 1645 6000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 6000 50  0001 C CNN
-F 3 "~" H 1750 6000 50  0001 C CNN
-	1    1750 6000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2450 5700 2450 6150
-Wire Wire Line
-	1750 6100 1750 6150
 Connection ~ 2450 6150
 Wire Wire Line
 	2450 6150 2450 6200
-Wire Wire Line
-	1850 5900 1850 6150
-Wire Wire Line
-	1750 6150 1850 6150
-Connection ~ 1850 6150
-Wire Wire Line
-	1950 5700 1950 6150
-Wire Wire Line
-	1850 6150 1950 6150
-Connection ~ 1950 6150
-Wire Wire Line
-	1950 6150 2450 6150
-Wire Wire Line
-	1950 5500 1950 5200
 Connection ~ 1950 5200
 Wire Wire Line
 	1950 5200 2050 5200
-Wire Wire Line
-	1850 5700 1850 5300
-Wire Wire Line
-	1550 5300 1850 5300
-Connection ~ 1850 5300
-Wire Wire Line
-	1850 5300 2050 5300
-Wire Wire Line
-	1750 5900 1750 5400
-Connection ~ 1750 5400
-Wire Wire Line
-	1750 5400 2050 5400
 NoConn ~ 2050 4900
 Text GLabel 3150 4700 2    50   Input ~ 0
 NODE8_PWR
@@ -3851,10 +3782,8 @@ Wire Wire Line
 Connection ~ 4200 9850
 Wire Wire Line
 	4200 9250 4050 9250
-Text Label 8250 2400 0    50   ~ 0
+Text Label 8550 2400 0    50   ~ 0
 GEIGER_EN
-Wire Wire Line
-	8250 2400 7900 2400
 Text Label 4350 9450 0    50   ~ 0
 GEIGER_EN
 Wire Wire Line
@@ -4171,4 +4100,90 @@ U 657790A8
 F0 "MCU Node15" 50
 F1 "ykts-mcu-node15.sch" 50
 $EndSheet
+Wire Wire Line
+	1950 5500 1950 5200
+Wire Wire Line
+	1750 6100 1750 6150
+Wire Wire Line
+	1750 6150 1850 6150
+Connection ~ 1850 6150
+Wire Wire Line
+	1850 5900 1850 6150
+Wire Wire Line
+	1950 6150 2450 6150
+Wire Wire Line
+	1850 6150 1950 6150
+Connection ~ 1950 6150
+Wire Wire Line
+	1950 5700 1950 6150
+Wire Wire Line
+	1850 5300 2050 5300
+Wire Wire Line
+	1550 5300 1850 5300
+Connection ~ 1850 5300
+Wire Wire Line
+	1850 5700 1850 5300
+Wire Wire Line
+	1750 5400 2050 5400
+Wire Wire Line
+	1350 5400 1750 5400
+Connection ~ 1750 5400
+Wire Wire Line
+	1750 5900 1750 5400
+$Comp
+L Device:R_Small R?
+U 1 1 617C444E
+P 1950 5600
+AR Path="/617C444E" Ref="R?"  Part="1" 
+AR Path="/6174477C/617C444E" Ref="R32"  Part="1" 
+F 0 "R32" V 1754 5600 50  0000 C CNN
+F 1 "10K" V 1845 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1950 5600 50  0001 C CNN
+F 3 "~" H 1950 5600 50  0001 C CNN
+	1    1950 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 617C4454
+P 1850 5800
+AR Path="/617C4454" Ref="R?"  Part="1" 
+AR Path="/6174477C/617C4454" Ref="R28"  Part="1" 
+F 0 "R28" V 1654 5800 50  0000 C CNN
+F 1 "10K" V 1745 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1850 5800 50  0001 C CNN
+F 3 "~" H 1850 5800 50  0001 C CNN
+	1    1850 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 617C445A
+P 1750 6000
+AR Path="/617C445A" Ref="R?"  Part="1" 
+AR Path="/6174477C/617C445A" Ref="R24"  Part="1" 
+F 0 "R24" V 1554 6000 50  0000 C CNN
+F 1 "10K" V 1645 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 6000 50  0001 C CNN
+F 3 "~" H 1750 6000 50  0001 C CNN
+	1    1750 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 65A83E0A
+P 8400 2400
+AR Path="/65A83E0A" Ref="R?"  Part="1" 
+AR Path="/6174477C/65A83E0A" Ref="R?"  Part="1" 
+F 0 "R?" V 8204 2400 50  0000 C CNN
+F 1 "1K" V 8295 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 2400 50  0001 C CNN
+F 3 "~" H 8400 2400 50  0001 C CNN
+	1    8400 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 2400 8300 2400
+Wire Wire Line
+	8500 2400 8550 2400
 $EndSCHEMATC
