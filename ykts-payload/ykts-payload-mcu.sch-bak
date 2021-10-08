@@ -1912,6 +1912,45 @@ Wire Wire Line
 Wire Wire Line
 	950  5400 950  5300
 Connection ~ 950  5300
+$Comp
+L Device:R_Small R?
+U 1 1 617C444E
+P 1950 5600
+AR Path="/617C444E" Ref="R?"  Part="1" 
+AR Path="/6174477C/617C444E" Ref="R32"  Part="1" 
+F 0 "R32" V 1754 5600 50  0000 C CNN
+F 1 "10K" V 1845 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1950 5600 50  0001 C CNN
+F 3 "~" H 1950 5600 50  0001 C CNN
+	1    1950 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 617C4454
+P 1850 5800
+AR Path="/617C4454" Ref="R?"  Part="1" 
+AR Path="/6174477C/617C4454" Ref="R28"  Part="1" 
+F 0 "R28" V 1654 5800 50  0000 C CNN
+F 1 "10K" V 1745 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1850 5800 50  0001 C CNN
+F 3 "~" H 1850 5800 50  0001 C CNN
+	1    1850 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 617C445A
+P 1750 6000
+AR Path="/617C445A" Ref="R?"  Part="1" 
+AR Path="/6174477C/617C445A" Ref="R24"  Part="1" 
+F 0 "R24" V 1554 6000 50  0000 C CNN
+F 1 "10K" V 1645 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 6000 50  0001 C CNN
+F 3 "~" H 1750 6000 50  0001 C CNN
+	1    1750 6000
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	2450 5700 2450 6150
 Connection ~ 2450 6150

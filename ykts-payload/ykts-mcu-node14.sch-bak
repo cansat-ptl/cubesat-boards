@@ -457,7 +457,7 @@ AR Path="/6174477C/6577909A/6386EF41" Ref="J?"  Part="1"
 AR Path="/6174477C/657790A6/6386EF41" Ref="J23"  Part="1" 
 F 0 "J23" H 3770 5146 50  0000 R CNN
 F 1 "AVR-ISP-6" H 3770 5055 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 3850 5100 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD" V 3850 5100 50  0001 C CNN
 F 3 " ~" H 2825 4500 50  0001 C CNN
 	1    4100 5050
 	-1   0    0    -1  
