@@ -19,8 +19,14 @@ $ENDCMP
 #
 $CMP ADG802BRT
 D CMOS SPST NC Switch, 0.4 Ohm
-K switch spst nc 
+K switch spst nc
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG801_802.pdf
+$ENDCMP
+#
+$CMP MAX4372FEUK
+D Current sense shunt resistor amplifier, 2.7-28V, 200kHz
+K Current Sensor Shunt
+F https://static.chipdip.ru/lib/824/DOC004824202.pdf
 $ENDCMP
 #
 $CMP PCA9534BS3,118

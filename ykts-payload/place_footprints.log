@@ -1,0 +1,10 @@
+10-27 06:24:26 Kicad_action_plugins-master.place_footprints.action_place_footprints 414:Plugin executed on: 'win32'
+10-27 06:24:26 Kicad_action_plugins-master.place_footprints.action_place_footprints 415:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+10-27 06:24:26 Kicad_action_plugins-master.place_footprints.action_place_footprints 416:KiCad build version: (5.1.8)-1
+10-27 06:24:26 Kicad_action_plugins-master.place_footprints.action_place_footprints 417:Place footprints plugin version: 55 started
+10-27 06:24:28 Kicad_action_plugins-master.place_footprints.place_footprints 213:getting project hierarchy from schematics
+10-27 06:24:28 Kicad_action_plugins-master.place_footprints.place_footprints 222:getting a list of all footprints on board
+10-27 06:24:28 Kicad_action_plugins-master.place_footprints.action_place_footprints 472:Reference designator is: U
+10-27 06:24:28 Kicad_action_plugins-master.place_footprints.action_place_footprints 473:Rerefence number is: 14
+10-27 06:24:28 Kicad_action_plugins-master.place_footprints.action_place_footprints 504:Sorted and filtered list:
+[u'U1', u'U2', u'U3', u'U4', u'U5', u'U6', u'U7', u'U8', u'U9', u'U10', u'U11', u'U12', u'U13', u'U14', u'U15', u'U16', u'U17', u'U18', u'U19', u'U20', u'U21', u'U22', u'U23', u'U24', u'U25', u'U26', u'U27', u'U28', u'U29']
