@@ -23,6 +23,12 @@ K switch spst nc
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG801_802.pdf
 $ENDCMP
 #
+$CMP AT25DF161-SF-T
+D 16-Mbit, 2.7V Minimum SPI Serial Flash Memory with Dual-I/O, SO-8
+K SPI DSPI 16Mbit 2.7V
+F https://static.chipdip.ru/lib/314/DOC000314045.pdf
+$ENDCMP
+#
 $CMP MAX4372FEUK
 D Current sense shunt resistor amplifier, 2.7-28V, 200kHz
 K Current Sensor Shunt
