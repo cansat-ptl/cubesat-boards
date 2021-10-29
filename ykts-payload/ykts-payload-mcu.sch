@@ -4771,66 +4771,6 @@ Wire Wire Line
 Wire Wire Line
 	15250 5450 15150 5450
 $Comp
-L yktsat-common:+5V_A #PWR?
-U 1 1 683F22A4
-P 14350 7050
-AR Path="/63A0A7B5/683F22A4" Ref="#PWR?"  Part="1" 
-AR Path="/683F22A4" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/683F22A4" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 14350 6900 50  0001 C CNN
-F 1 "+5V_A" H 14365 7223 50  0000 C CNN
-F 2 "" H 14350 7050 50  0001 C CNN
-F 3 "" H 14350 7050 50  0001 C CNN
-	1    14350 7050
-	1    0    0    1   
-$EndComp
-Connection ~ 14350 7050
-$Comp
-L yktsat-common:+5V_A #PWR?
-U 1 1 683F22AB
-P 14350 6250
-AR Path="/63A0A7B5/683F22AB" Ref="#PWR?"  Part="1" 
-AR Path="/683F22AB" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/683F22AB" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 14350 6100 50  0001 C CNN
-F 1 "+5V_A" H 14365 6423 50  0000 C CNN
-F 2 "" H 14350 6250 50  0001 C CNN
-F 3 "" H 14350 6250 50  0001 C CNN
-	1    14350 6250
-	1    0    0    1   
-$EndComp
-Connection ~ 14350 6250
-$Comp
-L yktsat-common:+5V_A #PWR?
-U 1 1 683F22B2
-P 14350 5450
-AR Path="/63A0A7B5/683F22B2" Ref="#PWR?"  Part="1" 
-AR Path="/683F22B2" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/683F22B2" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 14350 5300 50  0001 C CNN
-F 1 "+5V_A" H 14365 5623 50  0000 C CNN
-F 2 "" H 14350 5450 50  0001 C CNN
-F 3 "" H 14350 5450 50  0001 C CNN
-	1    14350 5450
-	1    0    0    1   
-$EndComp
-Connection ~ 14350 5450
-$Comp
-L yktsat-common:+5V_A #PWR?
-U 1 1 683F22B9
-P 14350 7850
-AR Path="/63A0A7B5/683F22B9" Ref="#PWR?"  Part="1" 
-AR Path="/683F22B9" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/683F22B9" Ref="#PWR0111"  Part="1" 
-F 0 "#PWR0111" H 14350 7700 50  0001 C CNN
-F 1 "+5V_A" H 14365 8023 50  0000 C CNN
-F 2 "" H 14350 7850 50  0001 C CNN
-F 3 "" H 14350 7850 50  0001 C CNN
-	1    14350 7850
-	1    0    0    1   
-$EndComp
-Connection ~ 14350 7850
-$Comp
 L power:GND #PWR?
 U 1 1 683F22C0
 P 14350 8150
@@ -5030,4 +4970,64 @@ Wire Wire Line
 	3900 10750 3850 10750
 Wire Wire Line
 	3850 10750 3850 10950
+$Comp
+L yktsat-common:+5V_B #PWR?
+U 1 1 69CC3B86
+P 14350 5450
+AR Path="/63A0A7B5/69CC3B86" Ref="#PWR?"  Part="1" 
+AR Path="/69CC3B86" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/69CC3B86" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14350 5300 50  0001 C CNN
+F 1 "+5V_B" H 14365 5623 50  0000 C CNN
+F 2 "" H 14350 5450 50  0001 C CNN
+F 3 "" H 14350 5450 50  0001 C CNN
+	1    14350 5450
+	1    0    0    1   
+$EndComp
+Connection ~ 14350 5450
+$Comp
+L yktsat-common:+5V_B #PWR?
+U 1 1 69CC4488
+P 14350 6250
+AR Path="/63A0A7B5/69CC4488" Ref="#PWR?"  Part="1" 
+AR Path="/69CC4488" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/69CC4488" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14350 6100 50  0001 C CNN
+F 1 "+5V_B" H 14365 6423 50  0000 C CNN
+F 2 "" H 14350 6250 50  0001 C CNN
+F 3 "" H 14350 6250 50  0001 C CNN
+	1    14350 6250
+	1    0    0    1   
+$EndComp
+Connection ~ 14350 6250
+$Comp
+L yktsat-common:+5V_B #PWR?
+U 1 1 69CC4728
+P 14350 7050
+AR Path="/63A0A7B5/69CC4728" Ref="#PWR?"  Part="1" 
+AR Path="/69CC4728" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/69CC4728" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14350 6900 50  0001 C CNN
+F 1 "+5V_B" H 14365 7223 50  0000 C CNN
+F 2 "" H 14350 7050 50  0001 C CNN
+F 3 "" H 14350 7050 50  0001 C CNN
+	1    14350 7050
+	1    0    0    1   
+$EndComp
+Connection ~ 14350 7050
+$Comp
+L yktsat-common:+5V_B #PWR?
+U 1 1 69CC4A28
+P 14350 7850
+AR Path="/63A0A7B5/69CC4A28" Ref="#PWR?"  Part="1" 
+AR Path="/69CC4A28" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/69CC4A28" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14350 7700 50  0001 C CNN
+F 1 "+5V_B" H 14365 8023 50  0000 C CNN
+F 2 "" H 14350 7850 50  0001 C CNN
+F 3 "" H 14350 7850 50  0001 C CNN
+	1    14350 7850
+	1    0    0    1   
+$EndComp
+Connection ~ 14350 7850
 $EndSCHEMATC
