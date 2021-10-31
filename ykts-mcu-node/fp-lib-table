@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ykts-mcu-node)(type KiCad)(uri ${KIPRJMOD}/../parts/ykts-mcu-node.pretty)(options "")(descr ""))
+)

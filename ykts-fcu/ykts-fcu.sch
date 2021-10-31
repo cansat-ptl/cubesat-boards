@@ -1,0 +1,262 @@
+EESchema Schematic File Version 4
+LIBS:cubesat-fcu-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title "Yktsat Flight Controller"
+Date "2020-03-29"
+Rev "1"
+Comp "SJSA"
+Comment1 "YKTS-2000-FCUMAIN"
+Comment2 "ThePetrovich"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 8600 2500 900  1200
+U 5E6C4D56
+F0 "BRD_CANBUS" 50
+F1 "brd-canbus.sch" 50
+F2 "MCP_!INT" O L 8600 3600 50 
+F3 "MCP_!RX0BF" O L 8600 3500 50 
+F4 "MCP_!RX1BF" O L 8600 3400 50 
+F5 "MCP_!TX0RTS" O L 8600 3300 50 
+F6 "MCP_!TX1RTS" O L 8600 3200 50 
+F7 "MCP_!TX2RTS" O L 8600 3100 50 
+F8 "MCP_MOSI" I L 8600 2700 50 
+F9 "MCP_MISO" O L 8600 2800 50 
+F10 "MCP_!CS" I L 8600 2600 50 
+F11 "MCP_SCK" I L 8600 2900 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 5EA2BF66
+P 8750 4850
+F 0 "J1" H 8722 4732 50  0000 R CNN
+F 1 "ICSP" H 8722 4823 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 8750 4850 50  0001 C CNN
+F 3 "~" H 8750 4850 50  0001 C CNN
+	1    8750 4850
+	1    0    0    -1  
+$EndComp
+Text Label 9200 4650 0    50   ~ 0
+ICSP_MISO
+NoConn ~ 8950 4750
+Text Label 9200 4950 0    50   ~ 0
+ICSP_MOSI
+Text Label 9200 4850 0    50   ~ 0
+ICSP_SCK
+Text Label 9200 5050 0    50   ~ 0
+ICSP_RESET
+$Comp
+L power:GND #PWR043
+U 1 1 5EA3AB4C
+P 9200 5200
+F 0 "#PWR043" H 9200 4950 50  0001 C CNN
+F 1 "GND" H 9205 5027 50  0000 C CNN
+F 2 "" H 9200 5200 50  0001 C CNN
+F 3 "" H 9200 5200 50  0001 C CNN
+	1    9200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 5150 9200 5150
+Wire Wire Line
+	9200 5150 9200 5200
+Wire Wire Line
+	9200 5050 8950 5050
+Wire Wire Line
+	9200 4950 8950 4950
+Wire Wire Line
+	9200 4850 8950 4850
+Wire Wire Line
+	9200 4650 8950 4650
+$Comp
+L MCU_Microchip_ATmega:ATxmega128A1U-AU U1
+U 1 1 5E7CF2E9
+P 5650 3900
+F 0 "U1" H 5650 1211 50  0000 C CNN
+F 1 "ATxmega128A1U-AU" H 5650 1120 50  0000 C CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 5650 3900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8385-8-and-16-bit-AVR-Microcontroller-ATxmega64A1U-ATxmega128A1U_datasheet.pdf" H 5650 3900 50  0001 C CNN
+	1    5650 3900
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 2350 2950 900  900 
+U 5E7F1954
+F0 "FCU_MEMORY" 50
+F1 "fcu-mem.sch" 50
+F2 "FCU_MEM_~CS" I R 3250 3300 50 
+F3 "FCU_MEM_~WE" I R 3250 3400 50 
+F4 "FCU_MEM_~OE" I R 3250 3500 50 
+F5 "FCU_ALE1" I R 3250 3600 50 
+F6 "FCU_ALE2" I R 3250 3700 50 
+F7 "PJ[0..7]" I R 3250 3200 50 
+F8 "PK[0..7]" I R 3250 3100 50 
+$EndSheet
+Entry Wire Line
+	4500 2600 4600 2700
+Entry Wire Line
+	4500 2700 4600 2800
+Entry Wire Line
+	4500 2800 4600 2900
+Entry Wire Line
+	4500 2900 4600 3000
+Entry Wire Line
+	4500 3000 4600 3100
+Entry Wire Line
+	4500 3100 4600 3200
+Entry Wire Line
+	4500 3200 4600 3300
+Entry Wire Line
+	4500 3300 4600 3400
+Entry Wire Line
+	4500 3600 4600 3700
+Entry Wire Line
+	4500 3500 4600 3600
+Entry Wire Line
+	4500 3700 4600 3800
+Entry Wire Line
+	4500 3800 4600 3900
+Entry Wire Line
+	4500 3900 4600 4000
+Entry Wire Line
+	4500 4000 4600 4100
+Entry Wire Line
+	4500 4100 4600 4200
+Entry Wire Line
+	4500 4200 4600 4300
+Wire Wire Line
+	4600 2700 4850 2700
+Wire Wire Line
+	4850 2800 4600 2800
+Wire Wire Line
+	4600 2900 4850 2900
+Wire Wire Line
+	4850 3000 4600 3000
+Wire Wire Line
+	4600 3100 4850 3100
+Wire Wire Line
+	4850 3200 4600 3200
+Wire Wire Line
+	4600 3300 4850 3300
+Wire Wire Line
+	4850 3400 4600 3400
+Wire Wire Line
+	4600 3600 4850 3600
+Wire Wire Line
+	4850 3700 4600 3700
+Wire Wire Line
+	4600 3800 4850 3800
+Wire Wire Line
+	4850 3900 4600 3900
+Wire Wire Line
+	4600 4000 4850 4000
+Wire Wire Line
+	4850 4100 4600 4100
+Wire Wire Line
+	4600 4200 4850 4200
+Wire Wire Line
+	4850 4300 4600 4300
+Text Label 4600 2700 0    50   ~ 0
+PK0
+Text Label 4600 2800 0    50   ~ 0
+PK1
+Text Label 4600 2900 0    50   ~ 0
+PK2
+Text Label 4600 3000 0    50   ~ 0
+PK3
+Text Label 4600 3100 0    50   ~ 0
+PK4
+Text Label 4600 3200 0    50   ~ 0
+PK5
+Text Label 4600 3300 0    50   ~ 0
+PK6
+Text Label 4600 3400 0    50   ~ 0
+PK7
+Text Label 4600 3600 0    50   ~ 0
+PJ0
+Text Label 4600 3700 0    50   ~ 0
+PJ1
+Text Label 4600 3800 0    50   ~ 0
+PJ2
+Text Label 4600 3900 0    50   ~ 0
+PJ3
+Text Label 4600 4000 0    50   ~ 0
+PJ4
+Text Label 4600 4100 0    50   ~ 0
+PJ5
+Text Label 4600 4200 0    50   ~ 0
+PJ6
+Text Label 4600 4300 0    50   ~ 0
+PJ7
+Text Notes 4450 3000 1    50   ~ 0
+Addr(MUX)
+$Comp
+L power:GND #PWR0103
+U 1 1 5EA6B943
+P 3400 3800
+F 0 "#PWR0103" H 3400 3550 50  0001 C CNN
+F 1 "GND" H 3405 3627 50  0000 C CNN
+F 2 "" H 3400 3800 50  0001 C CNN
+F 3 "" H 3400 3800 50  0001 C CNN
+	1    3400 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3300 3400 3300
+Wire Wire Line
+	3400 3300 3400 3800
+Wire Bus Line
+	3250 3100 4500 3100
+Connection ~ 4500 3100
+Wire Bus Line
+	3250 3200 4400 3200
+Wire Bus Line
+	4400 3200 4400 3500
+Wire Bus Line
+	4400 3500 4500 3500
+Wire Wire Line
+	4300 4500 4300 3400
+Wire Wire Line
+	4300 3400 3250 3400
+Wire Wire Line
+	4300 4500 4850 4500
+Wire Wire Line
+	3250 3500 4200 3500
+Wire Wire Line
+	4200 3500 4200 4600
+Wire Wire Line
+	4200 4600 4850 4600
+Wire Wire Line
+	4100 4700 4100 3600
+Wire Wire Line
+	4100 3600 3250 3600
+Wire Wire Line
+	4100 4700 4850 4700
+Wire Wire Line
+	3250 3700 4000 3700
+Wire Wire Line
+	4000 3700 4000 4800
+Wire Wire Line
+	4000 4800 4850 4800
+Text Label 3350 3100 0    50   ~ 0
+PK[0..7]
+Text Label 3350 3200 0    50   ~ 0
+PJ[0..7]
+$Sheet
+S 8600 1450 900  650 
+U 5E81ECD3
+F0 "FCU_MRAM" 50
+F1 "fcu-mram.sch" 50
+$EndSheet
+Wire Bus Line
+	4500 3100 4500 3300
+Wire Bus Line
+	4500 2600 4500 3100
+Wire Bus Line
+	4500 3500 4500 4200
+$EndSCHEMATC

@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name 74hc4067)(type KiCad)(uri C:/Sources/cubesat-boards/parts/74hc4067.pretty)(options "")(descr ""))
-  (lib (name 74hc4051)(type KiCad)(uri C:/Sources/cubesat-boards/parts/74hc4051.pretty)(options "")(descr ""))
+  (lib (name 74hc4067)(type KiCad)(uri ${KIPRJMOD}/../parts/74hc4067.pretty)(options "")(descr ""))
+  (lib (name 74hc4051)(type KiCad)(uri ${KIPRJMOD}/../parts/74hc4051.pretty)(options "")(descr ""))
 )

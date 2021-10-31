@@ -1,0 +1,506 @@
+EESchema Schematic File Version 4
+LIBS:cubesat-fcu-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title "Yktsat FCU SRAM Module"
+Date "2020-03-29"
+Rev "1"
+Comp "SJSA"
+Comment1 "YKTS-2001-FCUMEM"
+Comment2 "ThePetrovich"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0111
+U 1 1 5E831F6A
+P 7000 4950
+F 0 "#PWR0111" H 7000 4700 50  0001 C CNN
+F 1 "GND" H 7005 4777 50  0000 C CNN
+F 2 "" H 7000 4950 50  0001 C CNN
+F 3 "" H 7000 4950 50  0001 C CNN
+	1    7000 4950
+	1    0    0    -1  
+$EndComp
+Text HLabel 6200 5200 3    50   Input ~ 0
+FCU_MEM_~CS
+Text HLabel 6400 5200 3    50   Input ~ 0
+FCU_MEM_~WE
+Text HLabel 6300 5200 3    50   Input ~ 0
+FCU_MEM_~OE
+Text HLabel 3200 4550 0    50   Input ~ 0
+FCU_ALE1
+Text HLabel 3200 5950 0    50   Input ~ 0
+FCU_ALE2
+$Comp
+L power:GND #PWR0112
+U 1 1 5E83792A
+P 5150 6100
+F 0 "#PWR0112" H 5150 5850 50  0001 C CNN
+F 1 "GND" H 5155 5927 50  0000 C CNN
+F 2 "" H 5150 6100 50  0001 C CNN
+F 3 "" H 5150 6100 50  0001 C CNN
+	1    5150 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5850 4300 5850
+Wire Wire Line
+	5150 5950 5050 5950
+$Comp
+L power:GND #PWR0113
+U 1 1 5E83B961
+P 4300 6100
+F 0 "#PWR0113" H 4300 5850 50  0001 C CNN
+F 1 "GND" H 4305 5927 50  0000 C CNN
+F 2 "" H 4300 6100 50  0001 C CNN
+F 3 "" H 4300 6100 50  0001 C CNN
+	1    4300 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5850 4300 6100
+Wire Wire Line
+	5150 6100 5150 5950
+$Comp
+L power:GND #PWR0114
+U 1 1 5E83EC7B
+P 4300 4700
+F 0 "#PWR0114" H 4300 4450 50  0001 C CNN
+F 1 "GND" H 4305 4527 50  0000 C CNN
+F 2 "" H 4300 4700 50  0001 C CNN
+F 3 "" H 4300 4700 50  0001 C CNN
+	1    4300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5E83F60C
+P 5150 4700
+F 0 "#PWR0115" H 5150 4450 50  0001 C CNN
+F 1 "GND" H 5155 4527 50  0000 C CNN
+F 2 "" H 5150 4700 50  0001 C CNN
+F 3 "" H 5150 4700 50  0001 C CNN
+	1    5150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4700 5150 4550
+Wire Wire Line
+	5150 4550 5050 4550
+Wire Wire Line
+	4300 4700 4300 4450
+Wire Wire Line
+	4300 4450 4400 4450
+Wire Wire Line
+	5150 4400 5150 4450
+Wire Wire Line
+	5150 4450 5050 4450
+Wire Wire Line
+	5150 5850 5050 5850
+$Comp
+L Memory_RAM:IS61C5128AL-10TLI U6
+U 1 1 5E968FFA
+P 7000 3450
+F 0 "U6" H 7000 4931 50  0000 C CNN
+F 1 "IS61C5128AL-10TLI" H 7000 4840 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm" H 6500 4600 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/61-64C5128AL.pdf" H 7000 3450 50  0001 C CNN
+	1    7000 3450
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	3600 2250 3700 2350
+Entry Wire Line
+	3600 2350 3700 2450
+Entry Wire Line
+	3600 2450 3700 2550
+Entry Wire Line
+	3600 2550 3700 2650
+Entry Wire Line
+	3600 2650 3700 2750
+Entry Wire Line
+	3600 2750 3700 2850
+Entry Wire Line
+	3600 2850 3700 2950
+Entry Wire Line
+	3600 2950 3700 3050
+Entry Wire Line
+	3600 3500 3700 3600
+Entry Wire Line
+	3600 3600 3700 3700
+Entry Wire Line
+	3600 3700 3700 3800
+Entry Wire Line
+	3600 3800 3700 3900
+Entry Wire Line
+	3600 3900 3700 4000
+Entry Wire Line
+	3600 4000 3700 4100
+Entry Wire Line
+	3600 4100 3700 4200
+Entry Wire Line
+	3600 4200 3700 4300
+Entry Wire Line
+	3600 4900 3700 5000
+Entry Wire Line
+	3600 5000 3700 5100
+Entry Wire Line
+	3600 5100 3700 5200
+Wire Wire Line
+	6400 2350 3700 2350
+Wire Wire Line
+	3700 2450 6400 2450
+Wire Wire Line
+	6400 2550 3700 2550
+Wire Wire Line
+	3700 2650 6400 2650
+Wire Wire Line
+	6400 2750 3700 2750
+Wire Wire Line
+	3700 2850 6400 2850
+Wire Wire Line
+	6400 2950 3700 2950
+Wire Wire Line
+	6400 3050 3700 3050
+Wire Wire Line
+	3700 3600 4400 3600
+Wire Wire Line
+	3700 3700 4400 3700
+Wire Wire Line
+	4400 3800 3700 3800
+Wire Wire Line
+	4400 3900 3700 3900
+Wire Wire Line
+	3700 4000 4400 4000
+Wire Wire Line
+	4400 4100 3700 4100
+Wire Wire Line
+	3700 4200 4400 4200
+Wire Wire Line
+	4400 4300 3700 4300
+Wire Wire Line
+	4400 5200 3700 5200
+Wire Wire Line
+	3700 5100 4400 5100
+Wire Wire Line
+	4400 5000 3700 5000
+Wire Wire Line
+	5100 3150 5100 3600
+Wire Wire Line
+	5200 3700 5200 3250
+Wire Wire Line
+	5300 3350 5300 3800
+Wire Wire Line
+	5400 3900 5400 3450
+Wire Wire Line
+	5500 3550 5500 4000
+Wire Wire Line
+	5600 4100 5600 3650
+Wire Wire Line
+	5700 4200 5700 3750
+Wire Wire Line
+	5800 3850 5800 4300
+Wire Wire Line
+	5900 5000 5900 3950
+Wire Wire Line
+	6000 4050 6000 5100
+Wire Wire Line
+	6100 5200 6100 4150
+Wire Wire Line
+	5050 3600 5100 3600
+Wire Wire Line
+	5050 3700 5200 3700
+Wire Wire Line
+	5050 3800 5300 3800
+Wire Wire Line
+	5050 3900 5400 3900
+Wire Wire Line
+	5050 4000 5500 4000
+Wire Wire Line
+	5050 4100 5600 4100
+Wire Wire Line
+	5050 4200 5700 4200
+Wire Wire Line
+	5050 4300 5800 4300
+Wire Wire Line
+	5050 5000 5900 5000
+Wire Wire Line
+	5050 5100 6000 5100
+Wire Wire Line
+	5050 5200 6100 5200
+Wire Wire Line
+	6100 4150 6400 4150
+Wire Wire Line
+	6000 4050 6400 4050
+Wire Wire Line
+	5900 3950 6400 3950
+Wire Wire Line
+	5800 3850 6400 3850
+Wire Wire Line
+	5700 3750 6400 3750
+Wire Wire Line
+	5600 3650 6400 3650
+Wire Wire Line
+	5500 3550 6400 3550
+Wire Wire Line
+	5400 3450 6400 3450
+Wire Wire Line
+	5300 3350 6400 3350
+Wire Wire Line
+	5200 3250 6400 3250
+Wire Wire Line
+	5100 3150 6400 3150
+Wire Wire Line
+	6400 4550 6400 5200
+Wire Wire Line
+	6300 4450 6400 4450
+Wire Wire Line
+	6300 4450 6300 5200
+Wire Wire Line
+	6400 4350 6200 4350
+Wire Wire Line
+	6200 4350 6200 5200
+Wire Wire Line
+	7000 4950 7000 4750
+Wire Wire Line
+	3200 4550 4400 4550
+Wire Wire Line
+	3200 5950 4400 5950
+Entry Wire Line
+	8350 3050 8450 2950
+Entry Wire Line
+	8350 2950 8450 2850
+Entry Wire Line
+	8350 2850 8450 2750
+Entry Wire Line
+	8350 2750 8450 2650
+Entry Wire Line
+	8350 2650 8450 2550
+Entry Wire Line
+	8350 2550 8450 2450
+Entry Wire Line
+	8350 2450 8450 2350
+Entry Wire Line
+	8350 2350 8450 2250
+Wire Wire Line
+	7600 2350 8350 2350
+Wire Wire Line
+	7600 2450 8350 2450
+Wire Wire Line
+	8350 2550 7600 2550
+Wire Wire Line
+	7600 2650 8350 2650
+Wire Wire Line
+	8350 2750 7600 2750
+Wire Wire Line
+	7600 2850 8350 2850
+Wire Wire Line
+	8350 2950 7600 2950
+Wire Wire Line
+	7600 3050 8350 3050
+Text Label 3700 2350 0    50   ~ 0
+PK0
+Text Label 3700 2450 0    50   ~ 0
+PK1
+Text Label 3700 2550 0    50   ~ 0
+PK2
+Text Label 3700 2650 0    50   ~ 0
+PK3
+Text Label 3700 2750 0    50   ~ 0
+PK4
+Text Label 3700 2850 0    50   ~ 0
+PK5
+Text Label 3700 2950 0    50   ~ 0
+PK6
+Text Label 3700 3050 0    50   ~ 0
+PK7
+Text Label 3700 3600 0    50   ~ 0
+PK0
+Text Label 3700 3700 0    50   ~ 0
+PK1
+Text Label 3700 3800 0    50   ~ 0
+PK2
+Text Label 3700 3900 0    50   ~ 0
+PK3
+Text Label 3700 4000 0    50   ~ 0
+PK4
+Text Label 3700 4100 0    50   ~ 0
+PK5
+Text Label 3700 4200 0    50   ~ 0
+PK6
+Text Label 3700 4300 0    50   ~ 0
+PK7
+Text Label 3700 5000 0    50   ~ 0
+PK0
+Text Label 3700 5100 0    50   ~ 0
+PK1
+Text Label 3700 5200 0    50   ~ 0
+PK2
+Text Label 8350 2350 2    50   ~ 0
+PJ0
+Text Label 8350 2450 2    50   ~ 0
+PJ1
+Text Label 8350 2550 2    50   ~ 0
+PJ2
+Text Label 8350 2650 2    50   ~ 0
+PJ3
+Text Label 8350 2750 2    50   ~ 0
+PJ4
+Text Label 8350 2850 2    50   ~ 0
+PJ5
+Text Label 8350 2950 2    50   ~ 0
+PJ6
+Text Label 8350 3050 2    50   ~ 0
+PJ7
+$Comp
+L Device:C_Small C9
+U 1 1 5EA30B1D
+P 5750 1900
+F 0 "C9" H 5842 1946 50  0000 L CNN
+F 1 "100nF" H 5842 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5750 1900 50  0001 C CNN
+F 3 "~" H 5750 1900 50  0001 C CNN
+	1    5750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5EA3134E
+P 6150 1900
+F 0 "C10" H 6242 1946 50  0000 L CNN
+F 1 "100nF" H 6242 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6150 1900 50  0001 C CNN
+F 3 "~" H 6150 1900 50  0001 C CNN
+	1    6150 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1650 7000 1750
+Connection ~ 7000 1750
+Wire Wire Line
+	7000 1750 7000 2150
+$Comp
+L power:GND #PWR0120
+U 1 1 5EA3A457
+P 5750 2100
+F 0 "#PWR0120" H 5750 1850 50  0001 C CNN
+F 1 "GND" H 5755 1927 50  0000 C CNN
+F 2 "" H 5750 2100 50  0001 C CNN
+F 3 "" H 5750 2100 50  0001 C CNN
+	1    5750 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2000 5750 2050
+Wire Wire Line
+	5750 1750 6150 1750
+Wire Wire Line
+	6150 1800 6150 1750
+Connection ~ 6150 1750
+Wire Wire Line
+	6150 1750 7000 1750
+Wire Wire Line
+	5750 1800 5750 1750
+Wire Wire Line
+	6150 2050 6150 2000
+$Comp
+L Device:CP1_Small C8
+U 1 1 5EA4E238
+P 5350 1900
+F 0 "C8" H 5441 1946 50  0000 L CNN
+F 1 "CP1_Small" H 5441 1855 50  0000 L CNN
+F 2 "" H 5350 1900 50  0001 C CNN
+F 3 "~" H 5350 1900 50  0001 C CNN
+	1    5350 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1750 5350 1750
+Wire Wire Line
+	5350 1750 5350 1800
+Connection ~ 5750 1750
+Wire Wire Line
+	5350 2000 5350 2050
+Wire Wire Line
+	5350 2050 5750 2050
+Connection ~ 5750 2050
+Wire Wire Line
+	5750 2050 6150 2050
+Wire Wire Line
+	5750 2100 5750 2050
+Wire Bus Line
+	8450 2250 9050 2250
+Text Label 8700 2250 0    50   ~ 0
+PJ[0..7]
+Text HLabel 9050 2250 2    50   Input ~ 0
+PJ[0..7]
+Wire Bus Line
+	3600 2250 3050 2250
+Text Label 3100 2250 0    50   ~ 0
+PK[0..7]
+Text HLabel 3050 2250 0    50   Input ~ 0
+PK[0..7]
+Wire Bus Line
+	8450 2250 8450 2950
+Wire Bus Line
+	3600 2250 3600 5100
+$Comp
+L yktsat-common:+3V3-A #PWR?
+U 1 1 5E82F2F9
+P 7000 1650
+F 0 "#PWR?" H 7000 1500 50  0001 C CNN
+F 1 "+3V3-A" H 7015 1823 50  0000 C CNN
+F 2 "" H 7000 1650 50  0001 C CNN
+F 3 "" H 7000 1650 50  0001 C CNN
+	1    7000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+3V3-A #PWR?
+U 1 1 5E82FDB1
+P 5150 4400
+F 0 "#PWR?" H 5150 4250 50  0001 C CNN
+F 1 "+3V3-A" H 5165 4573 50  0000 C CNN
+F 2 "" H 5150 4400 50  0001 C CNN
+F 3 "" H 5150 4400 50  0001 C CNN
+	1    5150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:+3V3-A #PWR?
+U 1 1 5E830FFC
+P 5150 5850
+F 0 "#PWR?" H 5150 5700 50  0001 C CNN
+F 1 "+3V3-A" H 5165 6023 50  0000 C CNN
+F 2 "" H 5150 5850 50  0001 C CNN
+F 3 "" H 5150 5850 50  0001 C CNN
+	1    5150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:74HC573#SOIC U?
+U 1 1 5E841AC9
+P 4500 4650
+F 0 "U?" H 4725 5967 50  0000 C CNN
+F 1 "74HC573#SOIC" H 4725 5876 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5400 4500 50  0001 C CNN
+F 3 "" H 4500 4900 50  0001 C CNN
+	1    4500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L yktsat-common:74HC573#SOIC U?
+U 1 1 5E842DB1
+P 4500 6050
+F 0 "U?" H 4725 7367 50  0000 C CNN
+F 1 "74HC573#SOIC" H 4725 7276 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 5400 5900 50  0001 C CNN
+F 3 "" H 4500 6300 50  0001 C CNN
+	1    4500 6050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
