@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "YktSat Payload Module"
-Date "2021-10-29"
-Rev "C0"
+Date "2021-11-01"
+Rev "C1"
 Comp "Sakha Aerospace Systems, LLC"
 Comment1 "Approved by:"
 Comment2 "Verified by:"
