@@ -1,4 +1,4 @@
-update=10/29/21 16:57:40
+update=2021-11-23 12:05:35
 version=1
 last_client=kicad
 [general]
@@ -260,7 +260,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=PDF/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
