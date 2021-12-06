@@ -483,14 +483,6 @@
       "Node TX MUX 1"
     ],
     [
-      "00000000-0000-0000-0000-000061ca5177",
-      "Payload Power Control 0"
-    ],
-    [
-      "00000000-0000-0000-0000-000064a54f2b",
-      "Payload Power Control 1"
-    ],
-    [
       "00000000-0000-0000-0000-000061b405d9",
       "Payload Supervisor 0"
     ],

@@ -1,74 +1,74 @@
-11-30 19:25:35 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
-11-30 19:25:35 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
-11-30 19:25:35 replicate_layout.action_replicate_layout 307:KiCad build version: (6.0.0-rc1-155-g08cb573e11)
-11-30 19:25:35 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 77 started
-11-30 19:25:35 replicate_layout.action_replicate_layout 339:Preparing replicator with R_CSB1 as a reference
-11-30 19:25:35 replicate_layout.replicatelayout 141:getting a list of all footprints on board
-11-30 19:25:35 replicate_layout.replicatelayout 162:total modules:167
-11-30 19:25:35 replicate_layout.action_replicate_layout 366:source anchor footprint is 'R_CSB1'
-Located on:['', 'Payload Power Control 0']
-With filenames:['ykts-payload.kicad_sch', 'ykts-payload-pwr.kicad_sch']
-With sheet_id:['', 'Payload Power Control 0']
-11-30 19:25:35 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
-[('R_CSB1', ['', 'Payload Power Control 0']), ('R_CSB2', ['', 'Payload Power Control 1'])]
-11-30 19:25:35 replicate_layout.action_replicate_layout 384:Showing dialog
-11-30 19:25:35 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(2614, -5)
-11-30 19:25:35 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 2560, 1440)
-11-30 19:25:35 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(2560, 3, 2560, 1440)
-11-30 19:25:35 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(2523, 80)
-11-30 19:25:35 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(2210, 80)
-11-30 19:25:37 replicate_layout.replicatelayout 177:construcing a list of sheets suitable for replication on level:'Payload Power Control 0', file:'ykts-payload-pwr.kicad_sch'
-11-30 19:25:37 replicate_layout.replicatelayout 184:Source sheet path up to the level:['', 'Payload Power Control 0']
-11-30 19:25:37 replicate_layout.replicatelayout 188:Footprints on the sheets:
-['R_CSB1', 'R_CSB2']
-11-30 19:25:37 replicate_layout.replicatelayout 191:Footprints raw sheet ids:
-['/61ca5177/61cabe90', '/64a54f2b/61cabe90']
-11-30 19:25:37 replicate_layout.replicatelayout 207:All sheets to replicate:
-[['', 'Payload Power Control 0'], ['', 'Payload Power Control 1']]
-11-30 19:25:37 replicate_layout.replicatelayout 212:All sheets to replicate sorted:
-[['', 'Payload Power Control 0'], ['', 'Payload Power Control 1']]
-11-30 19:25:37 replicate_layout.replicatelayout 218:All sheets to replicate sorted and without source sheet:
-[['', 'Payload Power Control 1']]
-11-30 19:25:43 replicate_layout.replicatelayout 177:construcing a list of sheets suitable for replication on level:'Payload Power Control 0', file:'ykts-payload-pwr.kicad_sch'
-11-30 19:25:43 replicate_layout.replicatelayout 184:Source sheet path up to the level:['', 'Payload Power Control 0']
-11-30 19:25:43 replicate_layout.replicatelayout 188:Footprints on the sheets:
-['R_CSB1', 'R_CSB2']
-11-30 19:25:44 replicate_layout.replicatelayout 191:Footprints raw sheet ids:
-['/61ca5177/61cabe90', '/64a54f2b/61cabe90']
-11-30 19:25:44 replicate_layout.replicatelayout 207:All sheets to replicate:
-[['', 'Payload Power Control 0'], ['', 'Payload Power Control 1']]
-11-30 19:25:44 replicate_layout.replicatelayout 212:All sheets to replicate sorted:
-[['', 'Payload Power Control 0'], ['', 'Payload Power Control 1']]
-11-30 19:25:44 replicate_layout.replicatelayout 218:All sheets to replicate sorted and without source sheet:
-[['', 'Payload Power Control 1']]
-11-30 19:25:44 replicate_layout.action_replicate_layout 179:Replicating layout
-11-30 19:25:44 replicate_layout.replicatelayout 927:Starting replication of sheets: [['', 'Payload Power Control 1']]
-on level: ['', 'Payload Power Control 0']
+12-06 17:15:25 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+12-06 17:15:25 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
+12-06 17:15:25 replicate_layout.action_replicate_layout 307:KiCad build version: (6.0.0-rc1-155-g08cb573e11)
+12-06 17:15:25 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 77 started
+12-06 17:15:25 replicate_layout.action_replicate_layout 339:Preparing replicator with U3 as a reference
+12-06 17:15:25 replicate_layout.replicatelayout 141:getting a list of all footprints on board
+12-06 17:15:25 replicate_layout.replicatelayout 162:total modules:164
+12-06 17:15:25 replicate_layout.action_replicate_layout 366:source anchor footprint is 'U3'
+Located on:['', 'Payload Supervisor 0', 'Payload Supervisor Flash']
+With filenames:['ykts-payload.kicad_sch', 'ykts-payload-supervisor.kicad_sch', 'ykts-payload-supervisor-flash.kicad_sch']
+With sheet_id:['', 'Payload Supervisor 0', 'Payload Supervisor Flash']
+12-06 17:15:25 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[('U11', ['', 'Payload Supervisor 1', 'Payload Supervisor Flash']), ('U3', ['', 'Payload Supervisor 0', 'Payload Supervisor Flash'])]
+12-06 17:15:25 replicate_layout.action_replicate_layout 384:Showing dialog
+12-06 17:15:25 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(2614, -5)
+12-06 17:15:25 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 2560, 1440)
+12-06 17:15:25 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(2560, 3, 2560, 1440)
+12-06 17:15:25 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(4852, 120)
+12-06 17:15:25 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(4539, 120)
+12-06 17:15:27 replicate_layout.replicatelayout 177:construcing a list of sheets suitable for replication on level:'Payload Supervisor Flash', file:'ykts-payload-supervisor-flash.kicad_sch'
+12-06 17:15:27 replicate_layout.replicatelayout 184:Source sheet path up to the level:['', 'Payload Supervisor 0', 'Payload Supervisor Flash']
+12-06 17:15:27 replicate_layout.replicatelayout 188:Footprints on the sheets:
+['U11', 'U3']
+12-06 17:15:27 replicate_layout.replicatelayout 191:Footprints raw sheet ids:
+['/64a54f26/fc27354e-de11-4728-84ce-4157ac31ce5b/79df9b73-aef9-419c-93fe-831d64be8fc7', '/61b405d9/fc27354e-de11-4728-84ce-4157ac31ce5b/79df9b73-aef9-419c-93fe-831d64be8fc7']
+12-06 17:15:27 replicate_layout.replicatelayout 207:All sheets to replicate:
+[['', 'Payload Supervisor 1', 'Payload Supervisor Flash'], ['', 'Payload Supervisor 0', 'Payload Supervisor Flash']]
+12-06 17:15:27 replicate_layout.replicatelayout 212:All sheets to replicate sorted:
+[['', 'Payload Supervisor 0', 'Payload Supervisor Flash'], ['', 'Payload Supervisor 1', 'Payload Supervisor Flash']]
+12-06 17:15:27 replicate_layout.replicatelayout 218:All sheets to replicate sorted and without source sheet:
+[['', 'Payload Supervisor 1', 'Payload Supervisor Flash']]
+12-06 17:15:29 replicate_layout.replicatelayout 177:construcing a list of sheets suitable for replication on level:'Payload Supervisor Flash', file:'ykts-payload-supervisor-flash.kicad_sch'
+12-06 17:15:29 replicate_layout.replicatelayout 184:Source sheet path up to the level:['', 'Payload Supervisor 0', 'Payload Supervisor Flash']
+12-06 17:15:29 replicate_layout.replicatelayout 188:Footprints on the sheets:
+['U11', 'U3']
+12-06 17:15:29 replicate_layout.replicatelayout 191:Footprints raw sheet ids:
+['/64a54f26/fc27354e-de11-4728-84ce-4157ac31ce5b/79df9b73-aef9-419c-93fe-831d64be8fc7', '/61b405d9/fc27354e-de11-4728-84ce-4157ac31ce5b/79df9b73-aef9-419c-93fe-831d64be8fc7']
+12-06 17:15:29 replicate_layout.replicatelayout 207:All sheets to replicate:
+[['', 'Payload Supervisor 1', 'Payload Supervisor Flash'], ['', 'Payload Supervisor 0', 'Payload Supervisor Flash']]
+12-06 17:15:29 replicate_layout.replicatelayout 212:All sheets to replicate sorted:
+[['', 'Payload Supervisor 0', 'Payload Supervisor Flash'], ['', 'Payload Supervisor 1', 'Payload Supervisor Flash']]
+12-06 17:15:29 replicate_layout.replicatelayout 218:All sheets to replicate sorted and without source sheet:
+[['', 'Payload Supervisor 1', 'Payload Supervisor Flash']]
+12-06 17:15:29 replicate_layout.action_replicate_layout 179:Replicating layout
+12-06 17:15:29 replicate_layout.replicatelayout 927:Starting replication of sheets: [['', 'Payload Supervisor 1', 'Payload Supervisor Flash']]
+on level: ['', 'Payload Supervisor 0', 'Payload Supervisor Flash']
 with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
-11-30 19:25:44 root 261:updating GUI message: 'Preparing for replication'
-11-30 19:25:44 root 266:updating GUI with: 0
-11-30 19:25:44 replicate_layout.replicatelayout 491:Getting the list of source footprints
-11-30 19:25:44 replicate_layout.replicatelayout 495:Getting the list of all the remaining footprints
-11-30 19:25:44 replicate_layout.replicatelayout 499:Getting nets local to source footprints
-11-30 19:25:44 replicate_layout.replicatelayout 503:Getting source bounding box
-11-30 19:25:44 replicate_layout.replicatelayout 507:Getting source tracks
-11-30 19:25:44 replicate_layout.replicatelayout 511:Getting source zones
-11-30 19:25:44 replicate_layout.replicatelayout 515:Getting source text items
-11-30 19:25:44 replicate_layout.replicatelayout 519:Getting source text items
-11-30 19:25:44 root 261:updating GUI message: 'Replicating footprints'
-11-30 19:25:44 replicate_layout.replicatelayout 525:Replicating footprints
-11-30 19:25:44 root 266:updating GUI with: 0
-11-30 19:25:44 replicate_layout.replicatelayout 531:Replicating footprints on sheet ['', 'Payload Power Control 1']
-11-30 19:25:44 root 261:updating GUI message: 'Replicating tracks'
-11-30 19:25:44 replicate_layout.replicatelayout 657:Replicating tracks
-11-30 19:25:44 replicate_layout.replicatelayout 663:Replicating tracks on sheet ['', 'Payload Power Control 1']
-11-30 19:25:44 root 261:updating GUI message: 'Replicating zones'
-11-30 19:25:44 replicate_layout.replicatelayout 708:Replicating zones
-11-30 19:25:44 replicate_layout.replicatelayout 715:Replicating zones on sheet ['', 'Payload Power Control 1']
-11-30 19:25:44 root 261:updating GUI message: 'Replicating text'
-11-30 19:25:44 replicate_layout.replicatelayout 773:Replicating text
-11-30 19:25:44 replicate_layout.replicatelayout 780:Replicating text on sheet ['', 'Payload Power Control 1']
-11-30 19:25:44 root 261:updating GUI message: 'Replicating drawings'
-11-30 19:25:44 replicate_layout.replicatelayout 804:Replicating drawings
-11-30 19:25:44 replicate_layout.replicatelayout 810:Replicating drawings on sheet ['', 'Payload Power Control 1']
-11-30 19:25:44 replicate_layout.action_replicate_layout 201:Replication complete
+12-06 17:15:29 root 261:updating GUI message: 'Preparing for replication'
+12-06 17:15:29 root 266:updating GUI with: 0
+12-06 17:15:29 replicate_layout.replicatelayout 491:Getting the list of source footprints
+12-06 17:15:29 replicate_layout.replicatelayout 495:Getting the list of all the remaining footprints
+12-06 17:15:29 replicate_layout.replicatelayout 499:Getting nets local to source footprints
+12-06 17:15:29 replicate_layout.replicatelayout 503:Getting source bounding box
+12-06 17:15:29 replicate_layout.replicatelayout 507:Getting source tracks
+12-06 17:15:29 replicate_layout.replicatelayout 511:Getting source zones
+12-06 17:15:29 root 266:updating GUI with: 62
+12-06 17:15:29 replicate_layout.replicatelayout 515:Getting source text items
+12-06 17:15:29 replicate_layout.replicatelayout 519:Getting source text items
+12-06 17:15:29 root 261:updating GUI message: 'Replicating footprints'
+12-06 17:15:29 replicate_layout.replicatelayout 525:Replicating footprints
+12-06 17:15:29 replicate_layout.replicatelayout 531:Replicating footprints on sheet ['', 'Payload Supervisor 1', 'Payload Supervisor Flash']
+12-06 17:15:29 root 261:updating GUI message: 'Replicating tracks'
+12-06 17:15:29 replicate_layout.replicatelayout 657:Replicating tracks
+12-06 17:15:29 replicate_layout.replicatelayout 663:Replicating tracks on sheet ['', 'Payload Supervisor 1', 'Payload Supervisor Flash']
+12-06 17:15:29 root 261:updating GUI message: 'Replicating zones'
+12-06 17:15:29 replicate_layout.replicatelayout 708:Replicating zones
+12-06 17:15:29 replicate_layout.replicatelayout 715:Replicating zones on sheet ['', 'Payload Supervisor 1', 'Payload Supervisor Flash']
+12-06 17:15:29 root 261:updating GUI message: 'Replicating text'
+12-06 17:15:29 replicate_layout.replicatelayout 773:Replicating text
+12-06 17:15:29 replicate_layout.replicatelayout 780:Replicating text on sheet ['', 'Payload Supervisor 1', 'Payload Supervisor Flash']
+12-06 17:15:29 root 261:updating GUI message: 'Replicating drawings'
+12-06 17:15:29 replicate_layout.replicatelayout 804:Replicating drawings
+12-06 17:15:29 replicate_layout.replicatelayout 810:Replicating drawings on sheet ['', 'Payload Supervisor 1', 'Payload Supervisor Flash']
+12-06 17:15:30 replicate_layout.action_replicate_layout 201:Replication complete
