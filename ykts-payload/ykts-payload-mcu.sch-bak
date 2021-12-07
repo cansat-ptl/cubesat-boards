@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 2
+Sheet 2 7
 Title "YktSat Payload Module"
 Date "2021-11-01"
 Rev "C1"
@@ -89,47 +89,25 @@ Wire Wire Line
 Text Label 5550 2300 2    50   ~ 0
 S0_ISP_RESET
 $Comp
-L Device:C_Small C28
-U 1 1 5E98E21E
-P 5700 1450
-F 0 "C28" H 5792 1496 50  0000 L CNN
-F 1 "100nF" H 5792 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5700 1450 50  0001 C CNN
-F 3 "~" H 5700 1450 50  0001 C CNN
-	1    5700 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C30
 U 1 1 5E98E5AC
-P 6100 1450
-F 0 "C30" H 6192 1496 50  0000 L CNN
-F 1 "100nF" H 6192 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6100 1450 50  0001 C CNN
-F 3 "~" H 6100 1450 50  0001 C CNN
-	1    6100 1450
+P 6250 1450
+F 0 "C30" H 6342 1496 50  0000 L CNN
+F 1 "100nF" H 6342 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6250 1450 50  0001 C CNN
+F 3 "~" H 6250 1450 50  0001 C CNN
+	1    6250 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C32
 U 1 1 5E98EBBB
-P 6500 1450
-F 0 "C32" H 6592 1496 50  0000 L CNN
-F 1 "100nF" H 6592 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 1450 50  0001 C CNN
-F 3 "~" H 6500 1450 50  0001 C CNN
-	1    6500 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C33
-U 1 1 5E98EEF9
-P 6900 1450
-F 0 "C33" H 6992 1496 50  0000 L CNN
-F 1 "100nF" H 6992 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6900 1450 50  0001 C CNN
-F 3 "~" H 6900 1450 50  0001 C CNN
-	1    6900 1450
+P 6650 1450
+F 0 "C32" H 6742 1496 50  0000 L CNN
+F 1 "100nF" H 6742 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6650 1450 50  0001 C CNN
+F 3 "~" H 6650 1450 50  0001 C CNN
+	1    6650 1450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -155,33 +133,15 @@ F 3 "~" H 7550 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 1600 6100 1600
+	6650 1550 6650 1600
 Wire Wire Line
-	6900 1550 6900 1600
+	6250 1550 6250 1600
 Wire Wire Line
-	6500 1550 6500 1600
-Connection ~ 6500 1600
+	6250 1350 6250 1300
 Wire Wire Line
-	6500 1600 6900 1600
+	6650 1350 6650 1300
 Wire Wire Line
-	6100 1550 6100 1600
-Connection ~ 6100 1600
-Wire Wire Line
-	6100 1600 6500 1600
-Wire Wire Line
-	6100 1350 6100 1300
-Connection ~ 6100 1300
-Wire Wire Line
-	6100 1300 5700 1300
-Wire Wire Line
-	6500 1350 6500 1300
-Connection ~ 6500 1300
-Wire Wire Line
-	6500 1300 6100 1300
-Wire Wire Line
-	6900 1350 6900 1300
-Wire Wire Line
-	6900 1300 6500 1300
+	6500 1300 6250 1300
 $Comp
 L power:GND #PWR075
 U 1 1 5E9C8E74
@@ -196,33 +156,19 @@ $EndComp
 Wire Wire Line
 	6500 1750 6500 1600
 Wire Wire Line
-	8400 1800 8400 1750
+	8600 1800 8600 1750
 $Comp
 L Device:CP1_Small C?
 U 1 1 5E9D1D72
-P 8400 1650
+P 8600 1650
 AR Path="/5E9D1D72" Ref="C?"  Part="1" 
 AR Path="/5E6C4D56/5E9D1D72" Ref="C?"  Part="1" 
 AR Path="/6174477C/5E9D1D72" Ref="C36"  Part="1" 
-F 0 "C36" H 8491 1696 50  0000 L CNN
-F 1 "22uF" H 8491 1605 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 8400 1650 50  0001 C CNN
-F 3 "~" H 8400 1650 50  0001 C CNN
-	1    8400 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C?
-U 1 1 5E9D6772
-P 8800 1650
-AR Path="/5E9D6772" Ref="C?"  Part="1" 
-AR Path="/5E6C4D56/5E9D6772" Ref="C?"  Part="1" 
-AR Path="/6174477C/5E9D6772" Ref="C37"  Part="1" 
-F 0 "C37" H 8891 1696 50  0000 L CNN
-F 1 "22uF" H 8891 1605 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 8800 1650 50  0001 C CNN
-F 3 "~" H 8800 1650 50  0001 C CNN
-	1    8800 1650
+F 0 "C36" H 8691 1696 50  0000 L CNN
+F 1 "22uF" H 8691 1605 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 8600 1650 50  0001 C CNN
+F 3 "~" H 8600 1650 50  0001 C CNN
+	1    8600 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -237,16 +183,8 @@ F 3 "" H 8600 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 1500 8400 1550
-Wire Wire Line
-	8800 1500 8800 1550
-Wire Wire Line
-	8800 1800 8800 1750
-Wire Wire Line
 	8400 1800 8600 1800
 Connection ~ 8600 1800
-Wire Wire Line
-	8600 1800 8800 1800
 Wire Wire Line
 	8600 1800 8600 1950
 Wire Wire Line
@@ -263,7 +201,7 @@ U 1 1 5ED03424
 P 5750 2800
 F 0 "Y4" H 6000 2850 50  0000 L CNN
 F 1 "8 MHz" H 6000 2750 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 5750 2800 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 5750 2800 50  0001 C CNN
 F 3 "~" H 5750 2800 50  0001 C CNN
 F 4 "7B-8.000MAAJ-T -  CRYSTAL, 8MHZ, 18PF, 5 X 3.2MM" H 5750 2800 50  0001 C CNN "Part"
 	1    5750 2800
@@ -297,42 +235,13 @@ Wire Wire Line
 	8000 2000 8400 2000
 Wire Wire Line
 	8400 2000 8400 1800
-Connection ~ 8400 1800
-$Comp
-L Device:C_Small C31
-U 1 1 619A84B9
-P 6300 3050
-F 0 "C31" H 6392 3096 50  0000 L CNN
-F 1 "100nF" H 6392 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6300 3050 50  0001 C CNN
-F 3 "~" H 6300 3050 50  0001 C CNN
-	1    6300 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 2900 6300 2950
-$Comp
-L power:GND #PWR073
-U 1 1 619A9EEA
-P 6300 3200
-F 0 "#PWR073" H 6300 2950 50  0001 C CNN
-F 1 "GND" H 6305 3027 50  0000 C CNN
-F 2 "" H 6300 3200 50  0001 C CNN
-F 3 "" H 6300 3200 50  0001 C CNN
-	1    6300 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 3200 6300 3150
-Wire Wire Line
-	6300 2900 6850 2900
 $Comp
 L yktsat-common:74HC4051BQ,115 U13
 U 1 1 61A4288F
 P 11450 1850
 F 0 "U13" H 11500 2531 50  0000 C CNN
 F 1 "74HC4051BQ,115" H 11500 2440 50  0000 C CNN
-F 2 "74hc4051:QFN50P250X350X100-17N-D" H 11450 1450 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 11450 1450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 11450 1450 50  0001 C CNN
 	1    11450 1850
 	1    0    0    -1  
@@ -415,7 +324,7 @@ U 1 1 61597138
 P 11450 3600
 F 0 "U14" H 11500 4281 50  0000 C CNN
 F 1 "74HC4051BQ,115" H 11500 4190 50  0000 C CNN
-F 2 "74hc4051:QFN50P250X350X100-17N-D" H 11450 3200 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 11450 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 11450 3200 50  0001 C CNN
 	1    11450 3600
 	1    0    0    -1  
@@ -498,7 +407,7 @@ U 1 1 6159EB49
 P 14450 1850
 F 0 "U15" H 14500 2531 50  0000 C CNN
 F 1 "74HC4051BQ,115" H 14500 2440 50  0000 C CNN
-F 2 "74hc4051:QFN50P250X350X100-17N-D" H 14450 1450 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 14450 1450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 14450 1450 50  0001 C CNN
 	1    14450 1850
 	1    0    0    -1  
@@ -581,7 +490,7 @@ U 1 1 6159EB7A
 P 14450 3600
 F 0 "U16" H 14500 4281 50  0000 C CNN
 F 1 "74HC4051BQ,115" H 14500 4190 50  0000 C CNN
-F 2 "74hc4051:QFN50P250X350X100-17N-D" H 14450 3200 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 14450 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 14450 3200 50  0001 C CNN
 	1    14450 3600
 	1    0    0    -1  
@@ -658,37 +567,23 @@ Text Label 13650 3600 2    50   ~ 0
 S1_UART1_MUX1_A1
 Text Label 13650 3500 2    50   ~ 0
 S1_UART1_MUX1_A0
-Text GLabel 12150 1550 2    50   Input ~ 0
+Text GLabel 15150 1550 2    50   Input ~ 0
 NODE0_RX
-Text GLabel 12150 1650 2    50   Input ~ 0
+Text GLabel 15150 1650 2    50   Input ~ 0
 NODE1_RX
-Text GLabel 12150 1750 2    50   Input ~ 0
+Text GLabel 15150 1750 2    50   Input ~ 0
 NODE2_RX
-Text GLabel 12150 1850 2    50   Input ~ 0
+Text GLabel 15150 1850 2    50   Input ~ 0
 NODE3_RX
-Text GLabel 12150 1950 2    50   Input ~ 0
+Text GLabel 15150 1950 2    50   Input ~ 0
 NODE4_RX
-Text GLabel 12150 2050 2    50   Input ~ 0
+Text GLabel 15150 2050 2    50   Input ~ 0
 NODE5_RX
-Text GLabel 12150 2150 2    50   Input ~ 0
+Text GLabel 15150 2150 2    50   Input ~ 0
 NODE6_RX
-Text GLabel 12150 2250 2    50   Input ~ 0
+Text GLabel 15150 2250 2    50   Input ~ 0
 NODE7_RX
-Text GLabel 12150 3300 2    50   Input ~ 0
-NODE8_RX
-Text GLabel 12150 3400 2    50   Input ~ 0
-NODE9_RX
-Text GLabel 12150 3500 2    50   Input ~ 0
-NODE10_RX
-Text GLabel 12150 3600 2    50   Input ~ 0
-NODE11_RX
-Text GLabel 12150 3700 2    50   Input ~ 0
-NODE12_RX
-Text GLabel 12150 3800 2    50   Input ~ 0
-NODE13_RX
-Text GLabel 12150 3900 2    50   Input ~ 0
-NODE14_RX
-Text GLabel 12150 4000 2    50   Input ~ 0
+Text GLabel 15150 4000 2    50   Input ~ 0
 NODE15_RX
 Wire Wire Line
 	11850 1550 12150 1550
@@ -722,21 +617,21 @@ Wire Wire Line
 	12150 3900 11850 3900
 Wire Wire Line
 	11850 4000 12150 4000
-Text GLabel 15150 1550 2    50   Input ~ 0
+Text GLabel 12150 1550 2    50   Input ~ 0
 NODE0_TX
-Text GLabel 15150 1650 2    50   Input ~ 0
+Text GLabel 12150 1650 2    50   Input ~ 0
 NODE1_TX
-Text GLabel 15150 1750 2    50   Input ~ 0
+Text GLabel 12150 1750 2    50   Input ~ 0
 NODE2_TX
-Text GLabel 15150 1850 2    50   Input ~ 0
+Text GLabel 12150 1850 2    50   Input ~ 0
 NODE3_TX
-Text GLabel 15150 1950 2    50   Input ~ 0
+Text GLabel 12150 1950 2    50   Input ~ 0
 NODE4_TX
-Text GLabel 15150 2050 2    50   Input ~ 0
+Text GLabel 12150 2050 2    50   Input ~ 0
 NODE5_TX
-Text GLabel 15150 2150 2    50   Input ~ 0
+Text GLabel 12150 2150 2    50   Input ~ 0
 NODE6_TX
-Text GLabel 15150 2250 2    50   Input ~ 0
+Text GLabel 12150 2250 2    50   Input ~ 0
 NODE7_TX
 Wire Wire Line
 	14850 1550 15150 1550
@@ -754,21 +649,21 @@ Wire Wire Line
 	14850 2150 15150 2150
 Wire Wire Line
 	15150 2250 14850 2250
-Text GLabel 15150 3300 2    50   Input ~ 0
+Text GLabel 12150 3300 2    50   Input ~ 0
 NODE8_TX
-Text GLabel 15150 3400 2    50   Input ~ 0
+Text GLabel 12150 3400 2    50   Input ~ 0
 NODE9_TX
-Text GLabel 15150 3500 2    50   Input ~ 0
+Text GLabel 12150 3500 2    50   Input ~ 0
 NODE10_TX
-Text GLabel 15150 3600 2    50   Input ~ 0
+Text GLabel 12150 3600 2    50   Input ~ 0
 NODE11_TX
-Text GLabel 15150 3700 2    50   Input ~ 0
+Text GLabel 12150 3700 2    50   Input ~ 0
 NODE12_TX
-Text GLabel 15150 3800 2    50   Input ~ 0
+Text GLabel 12150 3800 2    50   Input ~ 0
 NODE13_TX
-Text GLabel 15150 3900 2    50   Input ~ 0
+Text GLabel 12150 3900 2    50   Input ~ 0
 NODE14_TX
-Text GLabel 15150 4000 2    50   Input ~ 0
+Text GLabel 12150 4000 2    50   Input ~ 0
 NODE15_TX
 Wire Wire Line
 	14850 3300 15150 3300
@@ -788,69 +683,69 @@ Wire Wire Line
 	15150 4000 14850 4000
 Text Notes 12050 750  0    100  ~ 0
 Node UART Multiplexing
-Text GLabel 8500 2300 2    50   Input ~ 0
+Text GLabel 8500 2500 2    50   Input ~ 0
 NODE0_RESET
 Text GLabel 8500 2400 2    50   Input ~ 0
 NODE1_RESET
-Text GLabel 8500 2500 2    50   Input ~ 0
+Text GLabel 8500 2300 2    50   Input ~ 0
 NODE2_RESET
 Text GLabel 8500 2600 2    50   Input ~ 0
 NODE3_RESET
 Text GLabel 8500 2700 2    50   Input ~ 0
 NODE4_RESET
-Text GLabel 8500 2800 2    50   Input ~ 0
-NODE5_RESET
 Text GLabel 8500 3000 2    50   Input ~ 0
-NODE7_RESET
+NODE5_RESET
 Text GLabel 8500 2900 2    50   Input ~ 0
+NODE7_RESET
+Text GLabel 8500 2800 2    50   Input ~ 0
 NODE6_RESET
-Text GLabel 4150 2300 2    50   Input ~ 0
+Text GLabel 4150 2500 2    50   Input ~ 0
 NODE8_RESET
 Text GLabel 4150 2400 2    50   Input ~ 0
 NODE9_RESET
-Text GLabel 4150 2500 2    50   Input ~ 0
+Text GLabel 4150 2300 2    50   Input ~ 0
 NODE10_RESET
 Text GLabel 4150 2600 2    50   Input ~ 0
 NODE11_RESET
 Text GLabel 4150 2700 2    50   Input ~ 0
 NODE12_RESET
-Text GLabel 4150 2800 2    50   Input ~ 0
-NODE13_RESET
 Text GLabel 4150 3000 2    50   Input ~ 0
-NODE15_RESET
+NODE13_RESET
 Text GLabel 4150 2900 2    50   Input ~ 0
+NODE15_RESET
+Text GLabel 4150 2800 2    50   Input ~ 0
 NODE14_RESET
-Text GLabel 8500 4100 2    50   Input ~ 0
+Text GLabel 8500 4300 2    50   Input ~ 0
 NODE0_PWR
 Text GLabel 8500 4200 2    50   Input ~ 0
 NODE1_PWR
-Text GLabel 8500 4300 2    50   Input ~ 0
+Text GLabel 8500 4100 2    50   Input ~ 0
 NODE2_PWR
 Text GLabel 8500 4400 2    50   Input ~ 0
 NODE3_PWR
 Text GLabel 8500 4500 2    50   Input ~ 0
 NODE4_PWR
-Text GLabel 8500 4600 2    50   Input ~ 0
-NODE5_PWR
 Text GLabel 8500 4800 2    50   Input ~ 0
-NODE7_PWR
+NODE5_PWR
 Text GLabel 8500 4700 2    50   Input ~ 0
+NODE7_PWR
+Text GLabel 8500 4600 2    50   Input ~ 0
 NODE6_PWR
-Text GLabel 4150 4100 2    50   Input ~ 0
+Text GLabel 4150 4300 2    50   Input ~ 0
 NODE8_PWR
 Text GLabel 4150 4200 2    50   Input ~ 0
 NODE9_PWR
-Text GLabel 4150 4300 2    50   Input ~ 0
+Text GLabel 4150 4100 2    50   Input ~ 0
 NODE10_PWR
 Text GLabel 4150 4400 2    50   Input ~ 0
 NODE11_PWR
 Text GLabel 4150 4500 2    50   Input ~ 0
 NODE12_PWR
-Text GLabel 4150 4600 2    50   Input ~ 0
-NODE13_PWR
 Text GLabel 4150 4800 2    50   Input ~ 0
-NODE15_PWR
+NODE13_PWR
 Text GLabel 4150 4700 2    50   Input ~ 0
+NODE15_PWR
+Text GLabel 4150 4600 2    50   Input ~ 0
 NODE14_PWR
 $Comp
 L Connector:Conn_01x03_Male J7
@@ -1107,27 +1002,25 @@ Text Label 8500 3400 0    50   ~ 0
 S0_SPI0_MOSI
 Text Label 8500 3500 0    50   ~ 0
 S0_SPI0_MISO
-Text Label 8500 3600 0    50   ~ 0
+Text Label 8500 5600 0    50   ~ 0
 S0_UART1_MUX0_A0
-Text Label 8500 3700 0    50   ~ 0
-S0_UART1_MUX0_A1
-Text Label 8500 3800 0    50   ~ 0
-S0_UART1_MUX0_A2
-Text Label 8500 5400 0    50   ~ 0
-S0_SD_CS
 Text Label 8500 5500 0    50   ~ 0
+S0_UART1_MUX0_A1
+Text Label 8500 5400 0    50   ~ 0
+S0_UART1_MUX0_A2
+Text Label 8500 3700 0    50   ~ 0
+S0_SD_CS
+Text Label 8500 3600 0    50   ~ 0
 S0_MCP_CS
-Text Label 6400 5700 2    50   ~ 0
+Text Label 6400 5400 2    50   ~ 0
 S0_MCP_INT
 Text Label 6400 5100 2    50   ~ 0
 S0_DBG_TX
 Text Label 6400 5000 2    50   ~ 0
 S0_DBG_RX
-Text Label 6400 5500 2    50   ~ 0
-S0_MCP_RX0BF
-Text Label 6400 5600 2    50   ~ 0
+Text Label 6400 5700 2    50   ~ 0
 S0_MCP_TX0RTS
-Text Label 8500 5600 0    50   ~ 0
+Text Label 8500 3800 0    50   ~ 0
 S0_LED_ST
 Wire Wire Line
 	8150 10100 8600 10100
@@ -1183,7 +1076,7 @@ Text Label 6350 9950 2    50   ~ 0
 1WIRE
 Wire Wire Line
 	6350 9950 6800 9950
-Text Label 8500 3900 0    50   ~ 0
+Text Label 8500 5700 0    50   ~ 0
 1WIRE
 Wire Wire Line
 	5550 2300 5850 2300
@@ -1813,23 +1706,14 @@ D5 F5 21 75 F1 3D 17 0D B3 13 C4 E2 E0 E0 E0 E0 70 90 F3 FF 6D 34 AB 8A 9F 5C B9
 EndData
 $EndBitmap
 Wire Wire Line
-	8400 1500 8600 1500
-Wire Wire Line
 	6500 1200 6500 1300
 Wire Wire Line
 	7450 1400 7450 1700
 Connection ~ 7450 1700
 Wire Wire Line
-	8600 1400 8600 1500
-Connection ~ 8600 1500
-Wire Wire Line
-	8600 1500 8800 1500
-Wire Wire Line
 	7450 6100 7450 6000
 Text Notes 4800 10600 0    100  ~ 0
 Global\nBus \nConnections
-Text GLabel 6400 3600 0    50   Input ~ 0
-MOSFET_5VA
 Text GLabel 2050 4100 0    50   Input ~ 0
 CS_5VB
 Text GLabel 6400 3700 0    50   Input ~ 0
@@ -1878,7 +1762,7 @@ Wire Wire Line
 Connection ~ 1850 10550
 Wire Wire Line
 	1850 9950 1700 9950
-Text Label 8500 5700 0    50   ~ 0
+Text Label 6400 3600 2    50   ~ 0
 GEIGER_EN
 Text Label 2000 10150 0    50   ~ 0
 GEIGER_EN
@@ -2055,25 +1939,21 @@ F 3 "~" H 6650 5100 50  0001 C CNN
 	1    6650 5100
 	0    1    -1   0   
 $EndComp
-Text GLabel 6400 3500 0    50   Input ~ 0
+Text GLabel 8500 3900 2    50   Input ~ 0
 S0_MCP_RESET
 $Comp
 L Device:R_Small R?
 U 1 1 65A83E0A
-P 8250 5700
+P 6650 3600
 AR Path="/65A83E0A" Ref="R?"  Part="1" 
 AR Path="/6174477C/65A83E0A" Ref="R35"  Part="1" 
-F 0 "R35" V 8054 5700 50  0000 C CNN
-F 1 "1K" V 8145 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8250 5700 50  0001 C CNN
-F 3 "~" H 8250 5700 50  0001 C CNN
-	1    8250 5700
-	0    -1   -1   0   
+F 0 "R35" V 6454 3600 50  0000 C CNN
+F 1 "1K" V 6545 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6650 3600 50  0001 C CNN
+F 3 "~" H 6650 3600 50  0001 C CNN
+	1    6650 3600
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5700 1300 5700 1350
-Wire Wire Line
-	5700 1550 5700 1600
 $Comp
 L MCU_Microchip_ATmega:ATmega128A-AU U11
 U 1 1 61C93FEA
@@ -2125,27 +2005,25 @@ Wire Wire Line
 Wire Wire Line
 	8050 4800 8500 4800
 Wire Wire Line
-	8050 3600 8500 3600
-Wire Wire Line
-	8050 3700 8500 3700
-Wire Wire Line
-	8050 3800 8500 3800
-Wire Wire Line
-	8050 3900 8500 3900
-Wire Wire Line
-	8050 5200 8500 5200
-Wire Wire Line
-	8050 5300 8500 5300
-Wire Wire Line
 	8050 5400 8500 5400
 Wire Wire Line
 	8050 5500 8500 5500
 Wire Wire Line
 	8050 5600 8500 5600
 Wire Wire Line
-	8150 5700 8050 5700
+	8050 5700 8500 5700
 Wire Wire Line
-	8500 5700 8350 5700
+	8050 5200 8500 5200
+Wire Wire Line
+	8050 5300 8500 5300
+Wire Wire Line
+	8050 3600 8500 3600
+Wire Wire Line
+	8050 3700 8500 3700
+Wire Wire Line
+	8050 3800 8500 3800
+Wire Wire Line
+	6400 3600 6550 3600
 Text Label 6400 4800 2    50   ~ 0
 S0_JTAG_TDI
 Text Label 6400 4700 2    50   ~ 0
@@ -2163,11 +2041,9 @@ Wire Wire Line
 Wire Wire Line
 	6400 4500 6850 4500
 Wire Wire Line
-	6400 3500 6850 3500
+	8500 3900 8050 3900
 Wire Wire Line
 	6400 3700 6850 3700
-Wire Wire Line
-	6400 3600 6850 3600
 Wire Wire Line
 	6750 5100 6850 5100
 Wire Wire Line
@@ -2176,16 +2052,6 @@ Wire Wire Line
 	6750 5000 6850 5000
 Wire Wire Line
 	6400 5000 6550 5000
-Wire Wire Line
-	6400 5700 6850 5700
-Wire Wire Line
-	6400 5600 6850 5600
-Wire Wire Line
-	6400 5500 6850 5500
-Wire Wire Line
-	6400 5400 6850 5400
-Text Label 6400 5400 2    50   ~ 0
-S0_MCP_RX1BF
 $Comp
 L power:GND #PWR061
 U 1 1 62BAE9DC
@@ -2262,47 +2128,25 @@ Wire Wire Line
 Text Label 1200 2300 2    50   ~ 0
 S1_ISP_RESET
 $Comp
-L Device:C_Small C17
-U 1 1 62BAEA05
-P 1350 1450
-F 0 "C17" H 1442 1496 50  0000 L CNN
-F 1 "100nF" H 1442 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1350 1450 50  0001 C CNN
-F 3 "~" H 1350 1450 50  0001 C CNN
-	1    1350 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C19
 U 1 1 62BAEA0B
-P 1750 1450
-F 0 "C19" H 1842 1496 50  0000 L CNN
-F 1 "100nF" H 1842 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1750 1450 50  0001 C CNN
-F 3 "~" H 1750 1450 50  0001 C CNN
-	1    1750 1450
+P 1900 1450
+F 0 "C19" H 1992 1496 50  0000 L CNN
+F 1 "100nF" H 1992 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1900 1450 50  0001 C CNN
+F 3 "~" H 1900 1450 50  0001 C CNN
+	1    1900 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C22
 U 1 1 62BAEA11
-P 2150 1450
-F 0 "C22" H 2242 1496 50  0000 L CNN
-F 1 "100nF" H 2242 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2150 1450 50  0001 C CNN
-F 3 "~" H 2150 1450 50  0001 C CNN
-	1    2150 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C23
-U 1 1 62BAEA17
-P 2550 1450
-F 0 "C23" H 2642 1496 50  0000 L CNN
-F 1 "100nF" H 2642 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2550 1450 50  0001 C CNN
-F 3 "~" H 2550 1450 50  0001 C CNN
-	1    2550 1450
+P 2300 1450
+F 0 "C22" H 2392 1496 50  0000 L CNN
+F 1 "100nF" H 2392 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2300 1450 50  0001 C CNN
+F 3 "~" H 2300 1450 50  0001 C CNN
+	1    2300 1450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2328,33 +2172,15 @@ F 3 "~" H 3200 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 1600 1750 1600
+	2300 1550 2300 1600
 Wire Wire Line
-	2550 1550 2550 1600
+	1900 1550 1900 1600
 Wire Wire Line
-	2150 1550 2150 1600
-Connection ~ 2150 1600
+	1900 1350 1900 1300
 Wire Wire Line
-	2150 1600 2550 1600
+	2300 1350 2300 1300
 Wire Wire Line
-	1750 1550 1750 1600
-Connection ~ 1750 1600
-Wire Wire Line
-	1750 1600 2150 1600
-Wire Wire Line
-	1750 1350 1750 1300
-Connection ~ 1750 1300
-Wire Wire Line
-	1750 1300 1350 1300
-Wire Wire Line
-	2150 1350 2150 1300
-Connection ~ 2150 1300
-Wire Wire Line
-	2150 1300 1750 1300
-Wire Wire Line
-	2550 1350 2550 1300
-Wire Wire Line
-	2550 1300 2150 1300
+	2300 1300 2150 1300
 $Comp
 L power:GND #PWR056
 U 1 1 62BAEA39
@@ -2368,34 +2194,18 @@ F 3 "" H 2150 1750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2150 1750 2150 1600
-Wire Wire Line
-	4050 1800 4050 1750
-$Comp
-L Device:CP1_Small C?
-U 1 1 62BAEA41
-P 4050 1650
-AR Path="/62BAEA41" Ref="C?"  Part="1" 
-AR Path="/5E6C4D56/62BAEA41" Ref="C?"  Part="1" 
-AR Path="/6174477C/62BAEA41" Ref="C25"  Part="1" 
-F 0 "C25" H 4141 1696 50  0000 L CNN
-F 1 "22uF" H 4141 1605 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 4050 1650 50  0001 C CNN
-F 3 "~" H 4050 1650 50  0001 C CNN
-	1    4050 1650
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:CP1_Small C?
 U 1 1 62BAEA47
-P 4450 1650
+P 4250 1650
 AR Path="/62BAEA47" Ref="C?"  Part="1" 
 AR Path="/5E6C4D56/62BAEA47" Ref="C?"  Part="1" 
 AR Path="/6174477C/62BAEA47" Ref="C26"  Part="1" 
-F 0 "C26" H 4541 1696 50  0000 L CNN
-F 1 "22uF" H 4541 1605 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 4450 1650 50  0001 C CNN
-F 3 "~" H 4450 1650 50  0001 C CNN
-	1    4450 1650
+F 0 "C26" H 4341 1696 50  0000 L CNN
+F 1 "22uF" H 4341 1605 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H 4250 1650 50  0001 C CNN
+F 3 "~" H 4250 1650 50  0001 C CNN
+	1    4250 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2409,17 +2219,6 @@ F 3 "" H 4250 1950 50  0001 C CNN
 	1    4250 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4050 1500 4050 1550
-Wire Wire Line
-	4450 1500 4450 1550
-Wire Wire Line
-	4450 1800 4450 1750
-Wire Wire Line
-	4050 1800 4250 1800
-Connection ~ 4250 1800
-Wire Wire Line
-	4250 1800 4450 1800
 Wire Wire Line
 	4250 1800 4250 1950
 Wire Wire Line
@@ -2436,7 +2235,7 @@ U 1 1 62BAEA6B
 P 1400 2800
 F 0 "Y3" H 1650 2850 50  0000 L CNN
 F 1 "8 MHz" H 1650 2750 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 1400 2800 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1400 2800 50  0001 C CNN
 F 3 "~" H 1400 2800 50  0001 C CNN
 F 4 "7B-8.000MAAJ-T -  CRYSTAL, 8MHZ, 18PF, 5 X 3.2MM" H 1400 2800 50  0001 C CNN "Part"
 	1    1400 2800
@@ -2469,37 +2268,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 2000 4050 2000
 Wire Wire Line
-	4050 2000 4050 1800
-Connection ~ 4050 1800
-$Comp
-L Device:C_Small C20
-U 1 1 62BAEA81
-P 1950 3050
-F 0 "C20" H 2042 3096 50  0000 L CNN
-F 1 "100nF" H 2042 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1950 3050 50  0001 C CNN
-F 3 "~" H 1950 3050 50  0001 C CNN
-	1    1950 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 2900 1950 2950
-$Comp
-L power:GND #PWR053
-U 1 1 62BAEA88
-P 1950 3200
-F 0 "#PWR053" H 1950 2950 50  0001 C CNN
-F 1 "GND" H 1955 3027 50  0000 C CNN
-F 2 "" H 1950 3200 50  0001 C CNN
-F 3 "" H 1950 3200 50  0001 C CNN
-	1    1950 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 3200 1950 3150
-Wire Wire Line
-	1950 2900 2500 2900
-Wire Wire Line
 	1600 2700 2300 2700
 Wire Wire Line
 	1200 2500 2300 2500
@@ -2513,15 +2281,15 @@ Text Label 4150 3400 0    50   ~ 0
 S1_SPI0_MOSI
 Text Label 4150 3500 0    50   ~ 0
 S1_SPI0_MISO
-Text Label 4150 3600 0    50   ~ 0
-S1_UART1_MUX1_A0
-Text Label 4150 3700 0    50   ~ 0
-S1_UART1_MUX1_A1
-Text Label 4150 3800 0    50   ~ 0
-S1_UART1_MUX1_A2
 Text Label 4150 5400 0    50   ~ 0
-S1_SD_CS
+S1_UART1_MUX1_A0
 Text Label 4150 5500 0    50   ~ 0
+S1_UART1_MUX1_A1
+Text Label 4150 5600 0    50   ~ 0
+S1_UART1_MUX1_A2
+Text Label 4150 3600 0    50   ~ 0
+S1_SD_CS
+Text Label 4150 3700 0    50   ~ 0
 S1_MCP_CS
 Text Label 2050 5700 2    50   ~ 0
 S1_MCP_INT
@@ -2533,9 +2301,9 @@ Text Label 2050 5500 2    50   ~ 0
 S1_MCP_RX0BF
 Text Label 2050 5600 2    50   ~ 0
 S1_MCP_TX0RTS
-Text Label 4150 5600 0    50   ~ 0
+Text Label 4150 3800 0    50   ~ 0
 S1_LED_ST
-Text Label 4150 3900 0    50   ~ 0
+Text Label 4150 5700 0    50   ~ 0
 1WIRE
 Wire Wire Line
 	1200 2300 1500 2300
@@ -2560,17 +2328,8 @@ Connection ~ 1500 2300
 Wire Wire Line
 	1500 2300 2500 2300
 Wire Wire Line
-	4050 1500 4250 1500
-Wire Wire Line
-	2150 1200 2150 1300
-Wire Wire Line
 	3100 1400 3100 1700
 Connection ~ 3100 1700
-Wire Wire Line
-	4250 1400 4250 1500
-Connection ~ 4250 1500
-Wire Wire Line
-	4250 1500 4450 1500
 Wire Wire Line
 	3100 6100 3100 6000
 $Comp
@@ -2599,12 +2358,8 @@ F 3 "~" H 2300 5100 50  0001 C CNN
 	1    2300 5100
 	0    1    -1   0   
 $EndComp
-Text GLabel 2050 3500 0    50   Input ~ 0
+Text GLabel 4150 3900 2    50   Input ~ 0
 S1_MCP_RESET
-Wire Wire Line
-	1350 1300 1350 1350
-Wire Wire Line
-	1350 1550 1350 1600
 $Comp
 L MCU_Microchip_ATmega:ATmega128A-AU U9
 U 1 1 62BAEAE4
@@ -2656,13 +2411,11 @@ Wire Wire Line
 Wire Wire Line
 	3700 4800 4150 4800
 Wire Wire Line
-	3700 3600 4150 3600
+	3700 5400 4150 5400
 Wire Wire Line
-	3700 3700 4150 3700
+	3700 5500 4150 5500
 Wire Wire Line
-	3700 3800 4150 3800
-Wire Wire Line
-	3700 3900 4150 3900
+	3700 5600 4150 5600
 Wire Wire Line
 	3700 5200 4150 5200
 Wire Wire Line
@@ -2670,11 +2423,11 @@ Wire Wire Line
 Wire Wire Line
 	3700 5100 4150 5100
 Wire Wire Line
-	3700 5400 4150 5400
+	3700 3600 4150 3600
 Wire Wire Line
-	3700 5500 4150 5500
+	3700 3700 4150 3700
 Wire Wire Line
-	3700 5600 4150 5600
+	3700 3800 4150 3800
 Text Label 2050 4800 2    50   ~ 0
 S1_JTAG_TDI
 Text Label 2050 4700 2    50   ~ 0
@@ -2692,7 +2445,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 4500 2500 4500
 Wire Wire Line
-	2050 3500 2500 3500
+	4150 3900 3700 3900
 Wire Wire Line
 	2050 4100 2500 4100
 Wire Wire Line
@@ -2833,25 +2586,23 @@ Wire Wire Line
 	15750 9150 15750 9300
 Text Notes 14700 8600 0    50   ~ 0
 Status LEDs
-Text Label 4150 5700 0    50   ~ 0
+Text Label 2050 3600 2    50   ~ 0
 GEIGER_EN
 $Comp
 L Device:R_Small R?
 U 1 1 639E75D7
-P 3900 5700
+P 2300 3600
 AR Path="/639E75D7" Ref="R?"  Part="1" 
 AR Path="/6174477C/639E75D7" Ref="R20"  Part="1" 
-F 0 "R20" V 3704 5700 50  0000 C CNN
-F 1 "1K" V 3795 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 3900 5700 50  0001 C CNN
-F 3 "~" H 3900 5700 50  0001 C CNN
-	1    3900 5700
-	0    -1   -1   0   
+F 0 "R20" V 2104 3600 50  0000 C CNN
+F 1 "1K" V 2195 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 3600 50  0001 C CNN
+F 3 "~" H 2300 3600 50  0001 C CNN
+	1    2300 3600
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3800 5700 3700 5700
-Wire Wire Line
-	4150 5700 4000 5700
+	2050 3600 2200 3600
 Wire Notes Line
 	4650 9550 4650 11200
 Wire Wire Line
@@ -3803,7 +3554,7 @@ U 1 1 658CDCF3
 P 1950 9000
 F 0 "J4" H 2000 9317 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 2000 9226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1950 9000 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD" H 1950 9000 50  0001 C CNN
 F 3 "~" H 1950 9000 50  0001 C CNN
 	1    1950 9000
 	1    0    0    -1  
@@ -3819,7 +3570,7 @@ U 1 1 65D52686
 P 8250 9000
 F 0 "J6" H 8300 9317 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 8300 9226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 8250 9000 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD" H 8250 9000 50  0001 C CNN
 F 3 "~" H 8250 9000 50  0001 C CNN
 	1    8250 9000
 	-1   0    0    -1  
@@ -3854,7 +3605,7 @@ U 1 1 664C1411
 P 10800 5500
 F 0 "N1" H 10800 5816 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 10800 5725 50  0000 C CNN
-F 2 "" H 10800 5500 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 10800 5500 50  0001 C CNN
 F 3 "" H 10800 5500 50  0001 C CNN
 	1    10800 5500
 	1    0    0    -1  
@@ -3897,7 +3648,7 @@ U 1 1 66884D77
 P 10800 6300
 F 0 "N2" H 10800 6616 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 10800 6525 50  0000 C CNN
-F 2 "" H 10800 6300 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 10800 6300 50  0001 C CNN
 F 3 "" H 10800 6300 50  0001 C CNN
 	1    10800 6300
 	1    0    0    -1  
@@ -3908,7 +3659,7 @@ U 1 1 66885224
 P 10800 7100
 F 0 "N3" H 10800 7416 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 10800 7325 50  0000 C CNN
-F 2 "" H 10800 7100 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 10800 7100 50  0001 C CNN
 F 3 "" H 10800 7100 50  0001 C CNN
 	1    10800 7100
 	1    0    0    -1  
@@ -3919,7 +3670,7 @@ U 1 1 668857A9
 P 10800 7900
 F 0 "N4" H 10800 8216 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 10800 8125 50  0000 C CNN
-F 2 "" H 10800 7900 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 10800 7900 50  0001 C CNN
 F 3 "" H 10800 7900 50  0001 C CNN
 	1    10800 7900
 	1    0    0    -1  
@@ -3962,7 +3713,7 @@ U 1 1 671A3E19
 P 11600 5500
 F 0 "N5" H 11600 5816 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 11600 5725 50  0000 C CNN
-F 2 "" H 11600 5500 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 11600 5500 50  0001 C CNN
 F 3 "" H 11600 5500 50  0001 C CNN
 	1    11600 5500
 	-1   0    0    -1  
@@ -3973,7 +3724,7 @@ U 1 1 671A3E1F
 P 11600 6300
 F 0 "N6" H 11600 6616 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 11600 6525 50  0000 C CNN
-F 2 "" H 11600 6300 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 11600 6300 50  0001 C CNN
 F 3 "" H 11600 6300 50  0001 C CNN
 	1    11600 6300
 	-1   0    0    -1  
@@ -3984,7 +3735,7 @@ U 1 1 671A3E25
 P 11600 7100
 F 0 "N7" H 11600 7416 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 11600 7325 50  0000 C CNN
-F 2 "" H 11600 7100 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 11600 7100 50  0001 C CNN
 F 3 "" H 11600 7100 50  0001 C CNN
 	1    11600 7100
 	-1   0    0    -1  
@@ -3995,7 +3746,7 @@ U 1 1 671A3E2B
 P 11600 7900
 F 0 "N8" H 11600 8216 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 11600 8125 50  0000 C CNN
-F 2 "" H 11600 7900 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 11600 7900 50  0001 C CNN
 F 3 "" H 11600 7900 50  0001 C CNN
 	1    11600 7900
 	-1   0    0    -1  
@@ -4190,7 +3941,7 @@ U 1 1 683F2234
 P 13950 5500
 F 0 "N9" H 13950 5816 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 13950 5725 50  0000 C CNN
-F 2 "" H 13950 5500 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 13950 5500 50  0001 C CNN
 F 3 "" H 13950 5500 50  0001 C CNN
 	1    13950 5500
 	1    0    0    -1  
@@ -4201,7 +3952,7 @@ U 1 1 683F224A
 P 13950 6300
 F 0 "N10" H 13950 6616 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 13950 6525 50  0000 C CNN
-F 2 "" H 13950 6300 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 13950 6300 50  0001 C CNN
 F 3 "" H 13950 6300 50  0001 C CNN
 	1    13950 6300
 	1    0    0    -1  
@@ -4212,7 +3963,7 @@ U 1 1 683F2250
 P 13950 7100
 F 0 "N11" H 13950 7416 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 13950 7325 50  0000 C CNN
-F 2 "" H 13950 7100 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 13950 7100 50  0001 C CNN
 F 3 "" H 13950 7100 50  0001 C CNN
 	1    13950 7100
 	1    0    0    -1  
@@ -4223,7 +3974,7 @@ U 1 1 683F2256
 P 13950 7900
 F 0 "N12" H 13950 8216 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 13950 8125 50  0000 C CNN
-F 2 "" H 13950 7900 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 13950 7900 50  0001 C CNN
 F 3 "" H 13950 7900 50  0001 C CNN
 	1    13950 7900
 	1    0    0    -1  
@@ -4266,7 +4017,7 @@ U 1 1 683F226C
 P 14750 5500
 F 0 "N13" H 14750 5816 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 14750 5725 50  0000 C CNN
-F 2 "" H 14750 5500 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 14750 5500 50  0001 C CNN
 F 3 "" H 14750 5500 50  0001 C CNN
 	1    14750 5500
 	-1   0    0    -1  
@@ -4277,7 +4028,7 @@ U 1 1 683F2272
 P 14750 6300
 F 0 "N14" H 14750 6616 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 14750 6525 50  0000 C CNN
-F 2 "" H 14750 6300 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 14750 6300 50  0001 C CNN
 F 3 "" H 14750 6300 50  0001 C CNN
 	1    14750 6300
 	-1   0    0    -1  
@@ -4288,7 +4039,7 @@ U 1 1 683F2278
 P 14750 7100
 F 0 "N15" H 14750 7416 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 14750 7325 50  0000 C CNN
-F 2 "" H 14750 7100 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 14750 7100 50  0001 C CNN
 F 3 "" H 14750 7100 50  0001 C CNN
 	1    14750 7100
 	-1   0    0    -1  
@@ -4299,7 +4050,7 @@ U 1 1 683F227E
 P 14750 7900
 F 0 "N16" H 14750 8216 50  0000 C CNN
 F 1 "YKTS-MCU-NODE" H 14750 8125 50  0000 C CNN
-F 2 "" H 14750 7900 50  0001 C CNN
+F 2 "ykts-mcu-node:YktSat_MCU_node" H 14750 7900 50  0001 C CNN
 F 3 "" H 14750 7900 50  0001 C CNN
 	1    14750 7900
 	-1   0    0    -1  
@@ -4487,7 +4238,7 @@ U 1 1 696C245F
 P 4100 10650
 F 0 "J25" H 4128 10626 50  0000 L CNN
 F 1 "Sensor_Ext" H 4128 10535 50  0000 L CNN
-F 2 "" H 4100 10650 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 4100 10650 50  0001 C CNN
 F 3 "~" H 4100 10650 50  0001 C CNN
 	1    4100 10650
 	1    0    0    -1  
@@ -4596,4 +4347,65 @@ F 3 "" H 14350 7850 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Connection ~ 14350 7850
+Text GLabel 15150 3900 2    50   Input ~ 0
+NODE14_RX
+Text GLabel 15150 3800 2    50   Input ~ 0
+NODE13_RX
+Text GLabel 15150 3700 2    50   Input ~ 0
+NODE12_RX
+Text GLabel 15150 3600 2    50   Input ~ 0
+NODE11_RX
+Text GLabel 15150 3500 2    50   Input ~ 0
+NODE10_RX
+Text GLabel 15150 3400 2    50   Input ~ 0
+NODE9_RX
+Text GLabel 15150 3300 2    50   Input ~ 0
+NODE8_RX
+Wire Wire Line
+	3700 5700 4150 5700
+Wire Wire Line
+	6750 3600 6850 3600
+Wire Wire Line
+	2400 3600 2500 3600
+Wire Wire Line
+	4050 2000 4050 1800
+Wire Wire Line
+	4050 1800 4250 1800
+Wire Wire Line
+	4250 1400 4250 1550
+Wire Wire Line
+	4250 1750 4250 1800
+Connection ~ 4250 1800
+Wire Wire Line
+	1900 1600 2150 1600
+Wire Wire Line
+	2150 1600 2300 1600
+Connection ~ 2150 1600
+Wire Wire Line
+	2150 1200 2150 1300
+Connection ~ 2150 1300
+Wire Wire Line
+	2150 1300 1900 1300
+Wire Wire Line
+	6250 1600 6500 1600
+Wire Wire Line
+	6650 1300 6500 1300
+Connection ~ 6500 1300
+Wire Wire Line
+	6500 1600 6650 1600
+Connection ~ 6500 1600
+Wire Wire Line
+	8600 1400 8600 1550
+Text Label 6400 5600 2    50   ~ 0
+S0_MCP_RX1BF
+Wire Wire Line
+	6400 5400 6850 5400
+Wire Wire Line
+	6400 5700 6850 5700
+Text Label 6400 5500 2    50   ~ 0
+S0_MCP_RX0BF
+Wire Wire Line
+	6400 5500 6850 5500
+Wire Wire Line
+	6400 5600 6850 5600
 $EndSCHEMATC

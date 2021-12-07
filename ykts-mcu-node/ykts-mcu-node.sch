@@ -400,49 +400,11 @@ AR Path="/6174477C/6347FAC1/65833EC0" Ref="Y?"  Part="1"
 AR Path="/65833EC0" Ref="Y1"  Part="1" 
 F 0 "Y1" H 8450 4350 50  0000 L CNN
 F 1 "8 MHz" H 8450 4250 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 8200 4300 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 8200 4300 50  0001 C CNN
 F 3 "~" H 8200 4300 50  0001 C CNN
 F 4 "7B-8.000MAAJ-T -  CRYSTAL, 8MHZ, 18PF, 5 X 3.2MM" H 8200 4300 50  0001 C CNN "Part"
 	1    8200 4300
 	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 65833E06
-P 8200 4200
-AR Path="/6174477C/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/637564E2/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/637CB186/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/63801AEE/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/638385B6/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/638DF11B/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6568C69E/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/656DAE2A/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/65729588/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6572958C/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6577909A/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/622F7DE4/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/62342E7C/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/62342E82/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6238E70C/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6238E712/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6238E718/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6238E71E/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6347FA97/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6347FA9D/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6347FAA3/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6347FAA9/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6347FAAF/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6347FAB5/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6347FABB/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/6174477C/6347FAC1/65833E06" Ref="#PWR?"  Part="1" 
-AR Path="/65833E06" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 8200 3950 50  0001 C CNN
-F 1 "GND" H 8205 4027 50  0000 C CNN
-F 2 "" H 8200 4200 50  0001 C CNN
-F 3 "" H 8200 4200 50  0001 C CNN
-	1    8200 4200
-	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -538,58 +500,6 @@ Wire Wire Line
 	8000 3800 6700 3800
 Wire Wire Line
 	6700 3700 8400 3700
-$Comp
-L Device:R_Small R3
-U 1 1 65833E46
-P 8200 3950
-AR Path="/65833E46" Ref="R3"  Part="1" 
-AR Path="/6174477C/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/637564E2/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/637CB186/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/63801AEE/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/638385B6/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/638DF11B/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6568C69E/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/656DAE2A/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/65729588/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6572958C/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6577909A/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/622F7DE4/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/62342E7C/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/62342E82/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6238E70C/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6238E712/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6238E718/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6238E71E/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6347FA97/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6347FA9D/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6347FAA3/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6347FAA9/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6347FAAF/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6347FAB5/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6347FABB/65833E46" Ref="R?"  Part="1" 
-AR Path="/6174477C/6347FAC1/65833E46" Ref="R?"  Part="1" 
-F 0 "R3" V 8004 3950 50  0000 C CNN
-F 1 "1M" V 8095 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8200 3950 50  0001 C CNN
-F 3 "~" H 8200 3950 50  0001 C CNN
-	1    8200 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8000 3800 8000 3950
-Wire Wire Line
-	8100 3950 8000 3950
-Connection ~ 8000 3950
-Wire Wire Line
-	8000 3950 8000 4300
-Wire Wire Line
-	8300 3950 8400 3950
-Wire Wire Line
-	8400 3950 8400 4300
-Wire Wire Line
-	8400 3950 8400 3700
-Connection ~ 8400 3950
 Text Label 4150 3900 2    50   ~ 0
 ISP_MOSI
 Wire Wire Line
@@ -786,14 +696,6 @@ Text Label 7050 3600 0    50   ~ 0
 ISP_SCK
 Wire Wire Line
 	7050 3600 6700 3600
-Text Label 4550 4750 0    50   ~ 0
-UART0_RX
-Wire Wire Line
-	4550 4750 4250 4750
-Text Label 4550 4650 0    50   ~ 0
-UART0_TX
-Wire Wire Line
-	4550 4650 4250 4650
 Text Notes 5700 950  0    100  ~ 0
 MCU Node
 Wire Wire Line
@@ -892,31 +794,9 @@ U 1 1 617CB605
 P 2700 2450
 F 0 "J1" V 2895 2522 50  0000 C CNN
 F 1 "PWEN" V 2804 2522 50  0000 C CNN
-F 2 "ykts-mcu-node:CastellatedHole_0.6mm" H 2900 2450 50  0001 C CNN
+F 2 "ykts-mcu-node:CastellatedHole_1.0mm" H 2900 2450 50  0001 C CNN
 F 3 "~" H 2900 2450 50  0001 C CNN
 	1    2700 2450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint J2
-U 1 1 617CF04F
-P 4250 4650
-F 0 "J2" V 4250 5250 50  0000 C CNN
-F 1 "RX" V 4250 4950 50  0000 C CNN
-F 2 "ykts-mcu-node:CastellatedHole_0.6mm" H 4450 4650 50  0001 C CNN
-F 3 "~" H 4450 4650 50  0001 C CNN
-	1    4250 4650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint J3
-U 1 1 617CF1CD
-P 4250 4750
-F 0 "J3" V 4250 5350 50  0000 C CNN
-F 1 "TX" V 4250 5050 50  0000 C CNN
-F 2 "ykts-mcu-node:CastellatedHole_0.6mm" H 4450 4750 50  0001 C CNN
-F 3 "~" H 4450 4750 50  0001 C CNN
-	1    4250 4750
 	0    -1   -1   0   
 $EndComp
 Text Label 7050 4600 0    50   ~ 0
@@ -927,7 +807,7 @@ U 1 1 617D8E42
 P 4250 5300
 F 0 "J6" V 4250 5900 50  0000 C CNN
 F 1 "VCC" V 4250 5600 50  0000 C CNN
-F 2 "ykts-mcu-node:CastellatedHole_0.6mm" H 4450 5300 50  0001 C CNN
+F 2 "ykts-mcu-node:CastellatedHole_1.0mm" H 4450 5300 50  0001 C CNN
 F 3 "~" H 4450 5300 50  0001 C CNN
 	1    4250 5300
 	0    -1   -1   0   
@@ -964,7 +844,7 @@ U 1 1 617DDBE5
 P 4250 5400
 F 0 "J7" V 4250 6000 50  0000 C CNN
 F 1 "VCC" V 4250 5700 50  0000 C CNN
-F 2 "ykts-mcu-node:CastellatedHole_0.6mm" H 4450 5400 50  0001 C CNN
+F 2 "ykts-mcu-node:CastellatedHole_1.0mm" H 4450 5400 50  0001 C CNN
 F 3 "~" H 4450 5400 50  0001 C CNN
 	1    4250 5400
 	0    -1   -1   0   
@@ -980,7 +860,7 @@ U 1 1 617E1A55
 P 4250 5550
 F 0 "J5" V 4250 6150 50  0000 C CNN
 F 1 "GND" V 4250 5850 50  0000 C CNN
-F 2 "ykts-mcu-node:CastellatedHole_0.6mm" H 4450 5550 50  0001 C CNN
+F 2 "ykts-mcu-node:CastellatedHole_1.0mm" H 4450 5550 50  0001 C CNN
 F 3 "~" H 4450 5550 50  0001 C CNN
 	1    4250 5550
 	0    -1   -1   0   
@@ -993,7 +873,7 @@ U 1 1 617E1A63
 P 4250 5650
 F 0 "J8" V 4250 6250 50  0000 C CNN
 F 1 "GND" V 4250 5950 50  0000 C CNN
-F 2 "ykts-mcu-node:CastellatedHole_0.6mm" H 4450 5650 50  0001 C CNN
+F 2 "ykts-mcu-node:CastellatedHole_1.0mm" H 4450 5650 50  0001 C CNN
 F 3 "~" H 4450 5650 50  0001 C CNN
 	1    4250 5650
 	0    -1   -1   0   
@@ -1053,9 +933,81 @@ U 1 1 617CC049
 P 4250 4850
 F 0 "J4" V 4250 5450 50  0000 C CNN
 F 1 "~RST" V 4250 5150 50  0000 C CNN
-F 2 "ykts-mcu-node:CastellatedHole_0.6mm" H 4450 4850 50  0001 C CNN
+F 2 "ykts-mcu-node:CastellatedHole_1.0mm" H 4450 4850 50  0001 C CNN
 F 3 "~" H 4450 4850 50  0001 C CNN
 	1    4250 4850
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4550 4650 4250 4650
+Text Label 4550 4650 0    50   ~ 0
+UART0_RX
+Text Label 4550 4550 0    50   ~ 0
+UART0_TX
+Wire Wire Line
+	4550 4550 4250 4550
+$Comp
+L Connector:TestPoint J2
+U 1 1 617CF04F
+P 4250 4550
+F 0 "J2" V 4250 5150 50  0000 C CNN
+F 1 "TX" V 4250 4850 50  0000 C CNN
+F 2 "ykts-mcu-node:CastellatedHole_1.0mm" H 4450 4550 50  0001 C CNN
+F 3 "~" H 4450 4550 50  0001 C CNN
+	1    4250 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint J3
+U 1 1 617CF1CD
+P 4250 4650
+F 0 "J3" V 4250 5250 50  0000 C CNN
+F 1 "RX" V 4250 4950 50  0000 C CNN
+F 2 "ykts-mcu-node:CastellatedHole_1.0mm" H 4450 4650 50  0001 C CNN
+F 3 "~" H 4450 4650 50  0001 C CNN
+	1    4250 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65833E06
+P 8200 4200
+AR Path="/6174477C/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/637564E2/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/637CB186/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/63801AEE/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/638385B6/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/638DF11B/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6568C69E/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/656DAE2A/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/65729588/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6572958C/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6577909A/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/622F7DE4/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/62342E7C/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/62342E82/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6238E70C/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6238E712/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6238E718/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6238E71E/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6347FA97/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6347FA9D/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6347FAA3/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6347FAA9/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6347FAAF/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6347FAB5/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6347FABB/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/6174477C/6347FAC1/65833E06" Ref="#PWR?"  Part="1" 
+AR Path="/65833E06" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 8200 3950 50  0001 C CNN
+F 1 "GND" H 8205 4027 50  0000 C CNN
+F 2 "" H 8200 4200 50  0001 C CNN
+F 3 "" H 8200 4200 50  0001 C CNN
+	1    8200 4200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8400 3700 8400 4300
+Wire Wire Line
+	8000 3800 8000 4300
 $EndSCHEMATC

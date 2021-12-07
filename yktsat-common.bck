@@ -17,6 +17,24 @@ K TTL Multiplexer Demultiplexer Analog
 F http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf
 $ENDCMP
 #
+$CMP ADG802BRT
+D CMOS SPST NC Switch, 0.4 Ohm
+K switch spst nc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG801_802.pdf
+$ENDCMP
+#
+$CMP AT25DF161-SF-T
+D 16-Mbit, 2.7V Minimum SPI Serial Flash Memory with Dual-I/O, SO-8
+K SPI DSPI 16Mbit 2.7V
+F https://static.chipdip.ru/lib/314/DOC000314045.pdf
+$ENDCMP
+#
+$CMP MAX4372FEUK
+D Current sense shunt resistor amplifier, 2.7-28V, 200kHz
+K Current Sensor Shunt
+F https://static.chipdip.ru/lib/824/DOC004824202.pdf
+$ENDCMP
+#
 $CMP PCA9534BS3,118
 D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, HVQFN16
 K SMBUS I2C Expander
