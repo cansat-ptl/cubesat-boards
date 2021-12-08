@@ -8128,8 +8128,6 @@
     (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
 
-  (via (at 189.738 90.678) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp 1beafc3f-42ef-4e7c-a98e-6440d87858a3))
-  (via (at 74.295 113.792) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp 4d27cbb1-a579-416f-b4b5-03ae4a4147db))
   (segment (start 145.114 79.635) (end 146.707 79.635) (width 0.25) (layer "F.Cu") (net 1) (tstamp 010e1193-bda7-4c00-846a-921a31e768b3))
   (segment (start 161.456 77.681) (end 161.456 78.878) (width 0.25) (layer "F.Cu") (net 1) (tstamp 1100acee-650f-4299-915f-0e0760a9a8cb))
   (segment (start 124.813 74.476) (end 125.183 74.846) (width 0.25) (layer "F.Cu") (net 1) (tstamp 45df3ff7-5053-4553-8ee3-2821b3b72746))
