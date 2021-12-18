@@ -410,8 +410,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "ykts-payload.dsn",
-      "step": "",
-      "vrml": ""
+      "step": "ykts-payload.step",
+      "vrml": "ykts-payload.wrl"
     },
     "page_layout_descr_file": ""
   },
