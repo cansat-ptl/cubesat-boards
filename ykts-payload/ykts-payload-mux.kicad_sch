@@ -6,9 +6,10 @@
 
   (title_block
     (title "YktSat Payload Module")
-    (date "2021-12-07")
-    (rev "D1")
+    (date "2021-12-18")
+    (rev "D2")
     (company "Sakha Aerospace Systems, LLC")
+    (comment 2 "Designed by: ThePetrovich")
   )
 
   (lib_symbols
@@ -682,7 +683,7 @@
   (symbol (lib_id "Device:R_Small") (at 137.16 88.9 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061f2a858)
-    (property "Reference" "R27" (id 0) (at 132.1816 88.9 90))
+    (property "Reference" "R49" (id 0) (at 132.1816 88.9 90))
     (property "Value" "33K" (id 1) (at 134.493 88.9 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 137.16 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -697,7 +698,7 @@
   (symbol (lib_id "yktsat-common:74HC4051BQ,115") (at 149.86 104.14 0)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006543580f)
-    (property "Reference" "U6" (id 0) (at 151.13 86.8426 0))
+    (property "Reference" "U15" (id 0) (at 151.13 86.8426 0))
     (property "Value" "74HC4051BQ,115" (id 1) (at 151.13 89.154 0))
     (property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" (id 2) (at 149.86 114.3 0)
       (effects (font (size 1.27 1.27)) hide)

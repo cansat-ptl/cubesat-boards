@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "yktsat-common")(type "KiCad")(uri "${KIPRJMOD}/../yktsat-common.kicad_sym")(options "")(descr ""))
+)
