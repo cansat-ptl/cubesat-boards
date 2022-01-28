@@ -9631,6 +9631,9 @@
     (path "/00000000-0000-0000-0000-000061b405d9/00000000-0000-0000-0000-000061b5002d"
       (reference "U1") (unit 1) (value "ATmega128A-AU") (footprint "Package_QFP:TQFP-64_14x14mm_P0.8mm")
     )
+    (path "/00000000-0000-0000-0000-000061b405d9/fc27354e-de11-4728-84ce-4157ac31ce5b/b97fd0b2-cca4-478b-8fd7-1676e2bcd355"
+      (reference "U2") (unit 1) (value "L78L33_SOT89") (footprint "Package_TO_SOT_SMD:SOT-89-3")
+    )
     (path "/00000000-0000-0000-0000-000061b405d9/fc27354e-de11-4728-84ce-4157ac31ce5b/79df9b73-aef9-419c-93fe-831d64be8fc7"
       (reference "U3") (unit 1) (value "AT25DF161-SF-T") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
@@ -9652,6 +9655,9 @@
     (path "/00000000-0000-0000-0000-000064a54f26/00000000-0000-0000-0000-000061b5002d"
       (reference "U9") (unit 1) (value "ATmega128A-AU") (footprint "Package_QFP:TQFP-64_14x14mm_P0.8mm")
     )
+    (path "/00000000-0000-0000-0000-000064a54f26/fc27354e-de11-4728-84ce-4157ac31ce5b/b97fd0b2-cca4-478b-8fd7-1676e2bcd355"
+      (reference "U10") (unit 1) (value "L78L33_SOT89") (footprint "Package_TO_SOT_SMD:SOT-89-3")
+    )
     (path "/00000000-0000-0000-0000-000064a54f26/fc27354e-de11-4728-84ce-4157ac31ce5b/79df9b73-aef9-419c-93fe-831d64be8fc7"
       (reference "U11") (unit 1) (value "AT25DF161-SF-T") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
@@ -9669,12 +9675,6 @@
     )
     (path "/00000000-0000-0000-0000-000064a54f5e/00000000-0000-0000-0000-00006543580f"
       (reference "U16") (unit 1) (value "74HC4051BQ,115") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
-    )
-    (path "/00000000-0000-0000-0000-000061b405d9/fc27354e-de11-4728-84ce-4157ac31ce5b/b97fd0b2-cca4-478b-8fd7-1676e2bcd355"
-      (reference "U?") (unit 1) (value "L78L33_SOT89") (footprint "Package_TO_SOT_SMD:SOT-89-3")
-    )
-    (path "/00000000-0000-0000-0000-000064a54f26/fc27354e-de11-4728-84ce-4157ac31ce5b/b97fd0b2-cca4-478b-8fd7-1676e2bcd355"
-      (reference "U?") (unit 1) (value "L78L33_SOT89") (footprint "Package_TO_SOT_SMD:SOT-89-3")
     )
     (path "/00000000-0000-0000-0000-000061b405d9/00000000-0000-0000-0000-000061b4ffd4"
       (reference "Y1") (unit 1) (value "8 MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")

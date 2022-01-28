@@ -951,7 +951,7 @@
   (symbol (lib_id "Regulator_Linear:L78L33_SOT89") (at 132.08 74.93 0)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b97fd0b2-cca4-478b-8fd7-1676e2bcd355)
-    (property "Reference" "U?" (id 0) (at 132.08 69.0585 0))
+    (property "Reference" "U10" (id 0) (at 132.08 69.0585 0))
     (property "Value" "L78L33_SOT89" (id 1) (at 132.08 71.8336 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-89-3" (id 2) (at 132.08 69.85 0)
       (effects (font (size 1.27 1.27) italic) hide)
