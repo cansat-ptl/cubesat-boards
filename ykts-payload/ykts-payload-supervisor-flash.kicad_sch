@@ -6,8 +6,8 @@
 
   (title_block
     (title "YktSat Payload Module")
-    (date "2021-12-18")
-    (rev "D2")
+    (date "2022-01-28")
+    (rev "D3")
     (company "Sakha Aerospace Systems, LLC")
     (comment 2 "Designed by: ThePetrovich")
   )
