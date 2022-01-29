@@ -9635,7 +9635,7 @@
       (reference "U2") (unit 1) (value "L78L33_SOT89") (footprint "Package_TO_SOT_SMD:SOT-89-3")
     )
     (path "/00000000-0000-0000-0000-000061b405d9/fc27354e-de11-4728-84ce-4157ac31ce5b/79df9b73-aef9-419c-93fe-831d64be8fc7"
-      (reference "U3") (unit 1) (value "AT25DF161-SF-T") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+      (reference "U3") (unit 1) (value "AT25DF161-SF-T") (footprint "Package_SO:SO-8_5.3x6.2mm_P1.27mm")
     )
     (path "/d1531959-8d70-437e-bccf-518cdafe6f01"
       (reference "U4") (unit 1) (value "MAX4372FEUK") (footprint "Package_TO_SOT_SMD:SOT-23-5")
@@ -9659,7 +9659,7 @@
       (reference "U10") (unit 1) (value "L78L33_SOT89") (footprint "Package_TO_SOT_SMD:SOT-89-3")
     )
     (path "/00000000-0000-0000-0000-000064a54f26/fc27354e-de11-4728-84ce-4157ac31ce5b/79df9b73-aef9-419c-93fe-831d64be8fc7"
-      (reference "U11") (unit 1) (value "AT25DF161-SF-T") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+      (reference "U11") (unit 1) (value "AT25DF161-SF-T") (footprint "Package_SO:SO-8_5.3x6.2mm_P1.27mm")
     )
     (path "/193fcca4-6d80-4304-87f8-05b0105b2b50"
       (reference "U12") (unit 1) (value "AMS1117-5.0") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
