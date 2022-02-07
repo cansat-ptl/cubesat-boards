@@ -427,6 +427,26 @@
     [
       "7edcb105-73c0-4595-b4f5-e9c378b7ecda",
       ""
+    ],
+    [
+      "5d8d8bc3-0909-447a-ad63-1de268dd75be",
+      "Detector MCU"
+    ],
+    [
+      "34f49b81-03af-49c6-80ba-1d6c08956c69",
+      "HV PSU"
+    ],
+    [
+      "ccc300cc-1b9f-42a0-aa7a-badea07fb048",
+      "SiPM"
+    ],
+    [
+      "08ce8577-efd1-4e27-befb-b8dbf3ece86e",
+      "Auxilary MCU"
+    ],
+    [
+      "59ed0714-79bd-4669-9c65-215a9921469e",
+      "Light Sensors"
     ]
   ],
   "text_variables": {}
