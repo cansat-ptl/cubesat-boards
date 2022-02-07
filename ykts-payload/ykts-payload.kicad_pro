@@ -471,36 +471,12 @@
       "CANBUS Controller 1"
     ],
     [
-      "00000000-0000-0000-0000-000061bdef78",
-      "Node RX MUX 0"
-    ],
-    [
-      "00000000-0000-0000-0000-000064a54f5e",
-      "Node RX MUX 1"
-    ],
-    [
-      "00000000-0000-0000-0000-000061f00988",
-      "Node TX MUX 0"
-    ],
-    [
-      "00000000-0000-0000-0000-000064a54f6d",
-      "Node TX MUX 1"
-    ],
-    [
       "00000000-0000-0000-0000-000061b405d9",
       "Payload Supervisor 0"
     ],
     [
       "00000000-0000-0000-0000-000064a54f26",
       "Payload Supervisor 1"
-    ],
-    [
-      "fc27354e-de11-4728-84ce-4157ac31ce5b",
-      "Payload Supervisor Flash"
-    ],
-    [
-      "fc27354e-de11-4728-84ce-4157ac31ce5b",
-      "Payload Supervisor Flash"
     ]
   ],
   "text_variables": {}
