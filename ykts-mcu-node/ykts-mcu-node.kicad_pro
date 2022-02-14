@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_overlap|105952000|84306000|7ef7cdce-cd80-4f8c-8919-abd6fae588b3|5d9921f1-08b3-4cc9-8cf7-e9a72ca2fdb7",
+        "silk_overlap|105952000|84781000|c9ea9be5-7ee5-4e4f-988e-1fd2486c3cdd|5d9921f1-08b3-4cc9-8cf7-e9a72ca2fdb7"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -386,8 +389,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "ykts-mcu-node.step",
+      "vrml": "ykts-mcu-node.wrl"
     },
     "page_layout_descr_file": ""
   },
