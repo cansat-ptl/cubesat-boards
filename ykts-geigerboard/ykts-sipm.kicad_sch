@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "SiPM analog in")
+    (date "2022-03-26")
+    (rev "A0")
+  )
+
   (lib_symbols
     (symbol "74xGxx:NC7SVU04P5X" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -2.54 5.08 0)
@@ -1005,6 +1011,9 @@
   (junction (at 171.45 123.19) (diameter 0) (color 0 0 0 0)
     (uuid a9bf433a-d415-4ea2-b46d-69b24187c877)
   )
+  (junction (at 156.21 69.85) (diameter 0) (color 0 0 0 0)
+    (uuid aad2138e-8f0a-4a34-84a2-09449b314d4a)
+  )
   (junction (at 186.69 53.34) (diameter 0) (color 0 0 0 0)
     (uuid b9c859d6-48fd-44b0-8b56-c1fa73e89de7)
   )
@@ -1210,6 +1219,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 60a252ea-2f4e-4347-9de9-dbc82ace2779)
   )
+  (wire (pts (xy 156.21 69.85) (xy 173.99 69.85))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 617cebc3-3d13-4587-af18-9d7ee82fdb10)
+  )
   (wire (pts (xy 158.75 123.19) (xy 171.45 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 61c58159-2528-43cd-b965-561d548bbb22)
@@ -1265,6 +1278,10 @@
   (wire (pts (xy 186.69 123.19) (xy 186.69 115.57))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7eb5e1fa-28a4-4ef7-88f9-0ae8592371b7)
+  )
+  (wire (pts (xy 156.21 97.155) (xy 156.21 69.85))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 82db9877-34dc-46a8-8bd0-51b219bb8cc7)
   )
   (wire (pts (xy 67.31 64.77) (xy 71.12 64.77))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1338,7 +1355,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9e8db9b5-7424-458b-a9fd-104562ec3ca1)
   )
-  (wire (pts (xy 144.78 69.85) (xy 173.99 69.85))
+  (wire (pts (xy 144.78 69.85) (xy 156.21 69.85))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9f37726e-6497-4331-9571-9aebf9e2a3b1)
   )
@@ -1385,6 +1402,10 @@
   (wire (pts (xy 186.69 53.34) (xy 186.69 64.77))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bbbc7ab3-44b3-4d56-844a-a8b62293f58b)
+  )
+  (wire (pts (xy 233.68 97.155) (xy 156.21 97.155))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid bf6bf70b-25d6-4a26-842f-eb37dee14c71)
   )
   (wire (pts (xy 96.52 83.82) (xy 102.87 83.82))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1515,7 +1536,7 @@
     (uuid ff79113f-489b-43f2-b876-3a470ec0dbbf)
   )
 
-  (text "Detector" (at 140.97 27.94 0)
+  (text "Detector" (at 142.24 31.75 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 2b184f5c-d929-45ca-acf9-2ce4fb2ed013)
   )
@@ -1545,7 +1566,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7bbf9160-4ce1-450f-a7b5-bfcad995e637)
   )
-  (text "Original shcematic by:\n@jar_ohty\nhttps://habr.com/ru/post/456878/"
+  (text "Original shcematic by:\n@jar_ohty - KBRadar\nhttps://habr.com/ru/post/456878/"
     (at 180.34 176.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7d296ca1-d664-4f70-b741-25449ca6bb6d)
@@ -1563,6 +1584,10 @@
   (hierarchical_label "HV_IN" (shape passive) (at 76.2 48.26 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 55d89a73-dacd-4b71-b51f-efca3762f9a5)
+  )
+  (hierarchical_label "TRIG" (shape output) (at 233.68 97.155 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ed3a8e53-8903-4e5c-bb21-7b99b835b679)
   )
 
   (symbol (lib_id "power:GNDA") (at 97.79 63.5 0) (unit 1)

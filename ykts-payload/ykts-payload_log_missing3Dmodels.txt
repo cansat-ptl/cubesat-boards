@@ -1,0 +1,1 @@
+[('FL1', 'C:\\Program Files\\KiCad\\share\\kicad\\modules\\packages3d\\Inductor_SMD.3dshapes\\L_CommonModeChoke_Coilcraft_0805USB.wrl'), ('FL2', 'C:\\Program Files\\KiCad\\share\\kicad\\modules\\packages3d\\Inductor_SMD.3dshapes\\L_CommonModeChoke_Coilcraft_0805USB.wrl')]

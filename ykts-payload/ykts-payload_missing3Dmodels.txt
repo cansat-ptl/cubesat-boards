@@ -1,0 +1,11 @@
+### Missing 3D models - created on 2022-02-26 02:58
+### Printed by checking_3D_models plugin
+Board file: C:/Development/Projects/Cubesat/cubesat-boards/ykts-payload/ykts-payload.kicad_pcb
+3D missing models written to:
+C:\Development\Projects\Cubesat\cubesat-boards\ykts-payload\ykts-payload_missing3Dmodels.txt
+-------
+('FL1', 'C:\\Program Files\\KiCad\\share\\kicad\\modules\\packages3d\\Inductor_SMD.3dshapes\\L_CommonModeChoke_Coilcraft_0805USB.wrl')
+('FL2', 'C:\\Program Files\\KiCad\\share\\kicad\\modules\\packages3d\\Inductor_SMD.3dshapes\\L_CommonModeChoke_Coilcraft_0805USB.wrl')
+-------
+NUM of 3D missing models:2
+checked extensions ['.stp', '.step', '.stpZ']
